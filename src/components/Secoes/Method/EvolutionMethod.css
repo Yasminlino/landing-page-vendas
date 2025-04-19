@@ -1,0 +1,78 @@
+.method-section {
+    background-color: #000;
+    color: #fff;
+}
+
+.card-transparente:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.card-transparente {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: rgba(0, 0, 0, 0.555) !important;
+    border: none !important;
+    border-radius: 10px;
+}
+
+.custom-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.377) !important;
+    border: none !important;
+    border-radius: 10px;
+}
+
+.custom-card > h5 {
+    color: var(--cor-primaria);
+}
+
+.custom-card > h5,
+.custom-card > p {
+    background-color: transparent;
+}
+
+.custom-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.1);
+}
+
+.custom-card .icon {
+    margin: 1rem;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    color: #ffc107;
+    align-self: center;
+}
+
+.card-title {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.card-text {
+    color: #ccc;
+    font-size: 1rem;
+}
+
+/* Ajustes para dispositivos móveis */
+@media (max-width: 768px) {
+    .custom-card {
+      margin-bottom: 1.5rem; /* Espaçamento entre os cartões */
+    }
+  
+    .custom-card .icon {
+      font-size: 2.5rem; /* Reduz o tamanho do ícone */
+    }
+  
+    .card-title {
+      font-size: 1.2rem; /* Reduz o tamanho do título */
+    }
+  
+    .card-text {
+      font-size: 0.9rem; /* Reduz o tamanho do texto */
+    }
+  
+    .method-section {
+      padding: 2rem 1rem; /* Ajusta o padding da seção */
+    }
+  }

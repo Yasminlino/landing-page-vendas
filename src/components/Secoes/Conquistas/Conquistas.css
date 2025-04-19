@@ -1,0 +1,32 @@
+.section-conquistas {
+    background-image: url(../../../assets/images/Background1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+.card-transparente:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.card-transparente {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: rgba(0, 0, 0, 0.555) !important;
+    border: none !important;
+    border-radius: 10px;
+}
+
+.card-transparente>p {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* Adicione no arquivo Conquistas.css */
+@media (max-width: 768px) {
+    .col-sm-6 {
+        flex: 0 0 100%;
+        /* Exibe um item por linha em telas menores */
+        max-width: 100%;
+    }
+}

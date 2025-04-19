@@ -1,0 +1,45 @@
+/* Geral */
+.section1 {
+    padding: 3rem 1rem;
+}
+
+/* Ajustes para dispositivos móveis */
+@media (max-width: 768px) {
+    .logo-img {
+        width: 80%; /* Reduz o tamanho do logo */
+        margin-bottom: 1.5rem;
+    }
+
+    .display-5 {
+        font-size: 1.8rem; /* Reduz o tamanho do título */
+        line-height: 1.4;
+    }
+
+    .lead {
+        font-size: 1rem; /* Ajusta o tamanho do texto descritivo */
+        line-height: 1.5;
+    }
+
+    .botaoPrincipal {
+        font-size: 1rem; /* Ajusta o tamanho do botão */
+        padding: 0.8rem 1.2rem;
+    }
+
+    .imgPrincipal {
+        width: 100%; /* Garante que a imagem ocupe toda a largura */
+        margin-top: 2rem;
+    }
+
+    .youtube-video {
+        margin-top: 2rem;
+    }
+
+    /* Reordena os elementos */
+    .col-md-6:first-child {
+        order: 2; /* Move o texto para depois da imagem */
+    }
+
+    .col-md-6:last-child {
+        order: 1; /* Move a imagem para o topo */
+    }
+}

@@ -1,0 +1,114 @@
+.corPrimaria {
+    color: var(--cor-primaria);
+}
+
+.imgPrincipal {
+    max-width: 100%;
+    height: auto;
+}
+
+.logo-img {
+    max-width: 180px;
+    height: auto;
+}
+
+.bg-primary {
+    background-color: var(--cor-primaria) !important;
+}
+
+
+.botaoPrincipal {
+    width: 100%;
+    max-width: 40rem;
+    height: 4rem;
+    text-decoration: none;
+    background-color: #ffde59;
+    color: #000;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(255, 222, 89, 0.4);
+    /* Glow mais suave */
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.botaoPrincipal:hover {
+    box-shadow: 0 0 15px rgba(255, 222, 89, 0.5);
+    /* Leve aumento no hover */
+    transform: translateY(-2px);
+}
+
+.botaoPrincipal:focus {
+    outline: none;
+    box-shadow: 0 0 15px rgba(255, 222, 89, 0.6);
+    /* Sem linha, glow discreto */
+}
+
+.section1 {
+    border-bottom: 1px solid var(--cor-primaria);
+}
+
+.transparent {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-family: 'Reboto', sans-serif;
+}
+
+iframe,
+.youtube-video {
+    border-radius: 1rem;
+}
+
+a {
+    border-radius: 2rem !important;
+}
+
+.tituloLaranja {
+    font-weight: bold !important;
+    color: var(--cor-primaria);
+}
+
+.card-personalizado>p {
+    border-radius: 1rem !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin-bottom: 2rem;
+    background-color: var(--cor-primaria);
+}
+
+.icones {
+    font-size: 10rem;
+    color: var(--cor-primaria) !important;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+.background-white>img {
+    background-color: white !important;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+
+@media (max-width: 576px) {
+    .logo-img {
+        max-width: 140px;
+    }
+}
+

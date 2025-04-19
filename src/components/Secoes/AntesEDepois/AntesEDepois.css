@@ -1,0 +1,52 @@
+/* Oculta a barra de rolagem */
+.hide-scrollbar {
+    overflow: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Botões de navegação */
+.btn {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+/* Estilo do contêiner das imagens */
+.carrossel-img-container {
+    width: 30%; /* Exibe 3 imagens por vez em telas grandes */
+    transition: width 0.3s ease;
+}
+
+/* Ajustes para telas médias */
+@media (max-width: 1000px) {
+    .carrossel-img-container {
+        width: 50%; /* Exibe 2 imagens por vez em telas médias */
+    }
+}
+
+/* Ajustes para telas pequenas */
+@media (max-width: 768px) {
+    .carrossel-img-container {
+        width: 100%; /* Exibe 1 imagem por vez em telas pequenas */
+    }
+
+    .flex-shrink-0 {
+        width: 100%; /* Garante que o contêiner ocupe toda a largura */
+    }
+
+    img {
+        height: 20rem; /* Reduz a altura das imagens em dispositivos menores */
+    }
+}

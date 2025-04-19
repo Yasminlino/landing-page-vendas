@@ -1,0 +1,44 @@
+.card {
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sectionPreco{
+    background-color: #fef4ec;
+}
+
+.texto-preto{
+    color: black;
+}
+.texto-preto-transparent{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.card-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .card-title {
+        font-size: 1.5rem;
+    }
+
+    .card-body ul {
+        font-size: 0.9rem;
+    }
+}
