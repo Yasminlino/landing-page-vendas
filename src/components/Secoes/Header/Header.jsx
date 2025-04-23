@@ -34,26 +34,26 @@ export default function Header() {
                         <div className="row align-items-center">
                             <div className="row align-items-center justify-content-center text-center">
                                 <div className="col-4 col-md-6 logo-container">
-                                    <img src={logo} alt="Logo Método Evolution" className="logo-img mb-3 img-fluid" />
+                                    <img src={logo} alt="Logo Método Evolution" className="logo-img mb-3" />
                                 </div>
 
                                 <div className="col-7 col-md-6 image-container mt-2">
-                                    <img className="imgPrincipal img-fluid" src={imagem} alt="Método Evolution" />
+                                    <img className="imgPrincipal" src={imagem} alt="Método Evolution" />
                                 </div>
                             </div>
                         </div>
 
                         <div className="">
 
-                            <h1 className="display-5 anton-regular">
+                            <h1 className="display-5 anton-regular color-white ">
                                 ELIMINE ATÉ <span className="corPrimaria">10KG EM 30 DIAS</span> com o método que realmente funciona.
                             </h1>
 
-                            <p className="lead mt-3">
+                            <p className="lead mt-3 color-white ">
                                 Chegou a hora de parar de tentar sozinha e começar a evoluir de verdade. Com orientação certa, disciplina e o método que mais transforma vidas, o seu resultado vem — e vem rápido.
                             </p>
 
-                            <a href="#formulario" className="botaoPrincipal">
+                            <a href="#precos" className="botaoPrincipal">
                                 Quero Evoluir Agora
                             </a>
                         </div>

@@ -1,37 +1,52 @@
-.card {
-    border-radius: 10px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+.sectionPreco {
+    background-color: #101820;
+    /* fundo escuro */
 }
 
-.sectionPreco{
-    background-color: #fef4ec;
+.card-preco {
+    background-color: rgba(255, 255, 255, 0.05);
+    /* leve transparência */
+    border: none;
+    backdrop-filter: blur(4px);
 }
 
-.texto-preto{
+.card-header>h3,
+.card-body>h4,
+.card-body>h3,
+.card-body>p,
+.card-body>div,
+.card-body>ul,
+.card-body>ul>li,
+.card-body>ul>li>span,
+.card-body>ul>li>span>svg
+{
+    background-color: rgba(0, 0, 0, 0) !important;
     color: black;
 }
-.texto-preto-transparent{
-    color: rgba(0, 0, 0, 0.5);
+
+.texto-preto {
+    color: #000000;
 }
 
-.card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+.corLaranja {
+    color: #f2aa4c !important;
 }
 
-.card-header {
-    font-size: 1.5rem;
-    font-weight: bold;
+.icone-vermelho {
+    color: #e63946 !important;
 }
 
-.card-title {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+.btn {
+    padding: 12px 0;
 }
 
-.preco-original {
-    text-decoration: line-through;
-    color: #999;    
+.card-body
+{
+    background-color: #ffffffec;
+}
+
+.card-preco{
+    border-radius: 10px;
 }
 
 @media (max-width: 900px) {

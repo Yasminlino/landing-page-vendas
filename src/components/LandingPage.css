@@ -106,6 +106,10 @@ a {
     margin: 0 auto;
 }
 
+.color-white {
+    color: white !important;
+}
+
 @media (max-width: 900px) {
     .logo-img {
         max-width: 140px;

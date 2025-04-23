@@ -42,7 +42,7 @@ export default function AntesEDepois() {
     <section className="py-5 position-relative">
       <div className="row justify-content-center mb-4 transparent">
         <div className="col-lg-8 text-center transparent">
-          <h2 className="display-5 mb-3">Veja o antes e depois de alguns de nossos alunos:</h2>
+          <h2 className="display-5 mb-3 color-white">Veja o antes e depois de alguns de nossos alunos:</h2>
         </div>
       </div>
       <div className="position-relative">

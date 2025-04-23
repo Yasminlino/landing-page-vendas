@@ -53,7 +53,7 @@ export default function Conquistas() {
         <div className="row justify-content-center mb-4 transparent">
           <div className="col-lg-8 text-center transparent">
             <h2 className="display-5 mb-3 transparent tituloLaranja">O QUE VOCÊ VAI CONQUISTAR</h2>
-            <p className="lead transparent">Com apenas 30 dias, essas mudanças já podem acontecer na sua vida:</p>
+            <p className="lead transparent color-white">Com apenas 30 dias, essas mudanças já podem acontecer na sua vida:</p>
           </div>
         </div>
 
@@ -65,11 +65,11 @@ export default function Conquistas() {
               key={index}
             >
               <span className="transparent">{item.icon}</span>
-              <span className="ms-3 transparent">{item.text}</span>
+              <span className="ms-3 transparent color-white ">{item.text}</span>
             </li>
           ))}
         </ul>
-        <a href="#formulario" className="botaoPrincipal">
+        <a href="#precos" className="botaoPrincipal">
           Quero Evoluir Agora
         </a>
       </div>

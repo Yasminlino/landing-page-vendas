@@ -4,7 +4,7 @@ export default function PerguntasFrequentes() {
     return (
         <section className="py-5">
         <div className="container">
-          <h2 className="text-center mb-5">Perguntas Frequentes</h2>
+          <h2 className="text-center mb-5 color-white">Perguntas Frequentes</h2>
           <div className="accordion" id="faqAccordion">
            
             {/* Pergunta 2 */}

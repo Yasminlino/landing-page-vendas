@@ -60,7 +60,7 @@ export default function Method() {
       </div>
 
         <div className="d-flex justify-content-center mt-5 text-center">
-          <a href="#formulario" className="botaoPrincipal">
+          <a href="#precos" className="botaoPrincipal">
             Aproveitar os benefícios
           </a>
         </div>

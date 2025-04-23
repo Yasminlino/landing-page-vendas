@@ -1,18 +1,22 @@
 import React from "react";
+import { FaCheck, FaTimes } from "react-icons/fa";
 import './Preco.css';
-import PaymentButton from "./PaymentButton";
 
 export default function Preco() {
     const planos = [
         {
             nome: "Plano Básico",
-            precoOriginal: "R$ 199",
-            precoPromocional: "R$ 99",
+            precoOriginal: "R$ 97,90",
+            precoPromocional: "R$ 47,90",
             descricao: "Acesso ao método completo por 1 mês.",
             itens: [
-                "✔ Treinos personalizados",
-                "✔ Plano alimentar básico",
-                "✔ Suporte via e-mail"
+                { icone: <FaCheck className="corLaranja" />, texto: "Curso em vídeos" },
+                { icone: <FaCheck className="corLaranja" />, texto: "Planilha de cálculo metabólico" },
+                { icone: <FaCheck className="corLaranja" />, texto: "E-book de receitas" },
+                { icone: <FaTimes className="icone-vermelho" />, texto: "4 mentorias em grupo (em 30 dias)" },
+                { icone: <FaTimes className="icone-vermelho" />, texto: "Acesso ao grupo de whatsapp" },
+                { icone: <FaTimes className="icone-vermelho" />, texto: "Aplicativo de treinos" },
+                { icone: <FaTimes className="icone-vermelho" />, texto: "Áudios motivacionais" }
             ],
             corCabecalho: "bg-warning",
             corBotao: "btn-warning",
@@ -20,28 +24,35 @@ export default function Preco() {
         },
         {
             nome: "Plano Intermediário",
-            precoOriginal: "R$ 199",
-            precoPromocional: "R$ 99",
+            precoOriginal: "R$ 297,90",
+            precoPromocional: "R$ 97,90",
             descricao: "Acesso ao método completo por 3 meses.",
             itens: [
-                "✔ Treinos personalizados",
-                "✔ Plano alimentar avançado",
-                "✔ Suporte via WhatsApp"
+                { icone: <FaCheck className="corLaranja" />, texto: "Curso em vídeos" },
+                { icone: <FaCheck className="corLaranja" />, texto: "Planilha de cálculo metabólico" },
+                { icone: <FaCheck className="corLaranja" />, texto: "E-book de receitas" },
+                { icone: <FaCheck className="corLaranja" />, texto: "4 mentorias em grupo (em 30 dias)" },
+                { icone: <FaCheck className="corLaranja" />, texto: "Acesso ao grupo de whatsapp" },
+                { icone: <FaTimes className="icone-vermelho" />, texto: "Aplicativo de treinos" },
+                { icone: <FaTimes className="icone-vermelho" />, texto: "Áudios motivacionais" }
             ],
-            corCabecalho: "bg-dark",
+            corCabecalho: "bg-primary",
             corBotao: "btn-dark",
             preferenceId: "PREFERENCE_ID_INTERMEDIARIO"
         },
         {
             nome: "Plano Premium",
-            precoOriginal: "R$ 199",
-            precoPromocional: "R$ 99",
+            precoOriginal: "R$ 497,90",
+            precoPromocional: "R$ 197,90",
             descricao: "Acesso ao método completo por 6 meses.",
             itens: [
-                "✔ Treinos personalizados",
-                "✔ Plano alimentar premium",
-                "✔ Suporte 24/7",
-                "✔ Consultoria individual"
+                { icone: <FaCheck className="corLaranja me-2" />, texto: "Curso em vídeos" },
+                { icone: <FaCheck className="corLaranja me-2" />, texto: "Planilha de cálculo metabólico" },
+                { icone: <FaCheck className="corLaranja me-2" />, texto: "E-book de receitas" },
+                { icone: <FaCheck className="corLaranja me-2" />, texto: "8 mentorias em grupo (em 30 dias)" },
+                { icone: <FaCheck className="corLaranja me-2" />, texto: "Acesso ao grupo de whatsapp" },
+                { icone: <FaCheck className="corLaranja me-2" />, texto: "Aplicativo de treinos" },
+                { icone: <FaCheck className="corLaranja me-2" />, texto: "Áudios motivacionais" }
             ],
             corCabecalho: "bg-success",
             corBotao: "btn-success",
@@ -50,30 +61,47 @@ export default function Preco() {
     ];
 
     return (
-        <section className="py-5 text-center sectionPreco">
+        <section className="py-5 text-center sectionPreco" id="precos">
             <div className="container transparent">
-                <h2 className="mb-4 transparent texto-preto">Escolha o plano ideal para você</h2>
-                <p className="mb-5 transparent texto-preto-transparent">
+                <h2 className="mb-4 transparent color-white">Escolha o plano ideal para você</h2>
+                <p className="mb-5 transparent color-white">
                     Transforme sua vida com o método que já ajudou milhares de pessoas a emagrecer com saúde.
                 </p>
                 <div className="row transparent">
                     {planos.map((plano, index) => (
                         <div className="col-md-4 mb-4 transparent" key={index}>
-                            <div className="card h-100 shadow-sm d-flex flex-column transparent">
-                                <div className={`card-header ${plano.corCabecalho}`}>
-                                    <h3 className="mb-0 transparent text-white">{plano.nome}</h3>
+                            <div className="card h-100 shadow-sm d-flex flex-column card-preco">
+                                <div className={`card-header transparent ${plano.corCabecalho}`}>
+                                    <h3 className="mb-0 transparent">{plano.nome}</h3>
                                 </div>
                                 <div className="card-body d-flex flex-column">
-                                    <h4 className="card-title preco-original">{plano.precoOriginal}</h4>
-                                    <h4 className="card-title text-white">{plano.precoPromocional}</h4>
-                                    <p className="card-text">{plano.descricao}</p>
-                                    <ul className="list-unstyled flex-grow-1">
-                                        {plano.itens.map((item, i) => (
-                                            <li key={i}>{item}</li>
-                                        ))}
+                                    <h4 className="text-muted text-decoration-line-through transparent">{plano.precoOriginal}</h4>
+                                    <h3>{plano.precoPromocional}</h3>
+                                    <p className="mb-3">{plano.descricao}</p>
+
+                                    <ul className="list-unstyled flex-grow-1 text-start">
+                                        {plano.itens.map((item, i) => {
+                                            const isIndisponivel = item.icone.type === FaTimes;
+
+                                            return (
+                                                <li key={i} className="d-flex align-items-center mb-2">
+                                                    <span className="me-2">{item.icone}</span>
+                                                    <span className={isIndisponivel ? "text-decoration-line-through text-muted" : ""}>
+                                                        {item.texto}
+                                                    </span>
+                                                </li>
+                                            );
+                                        })}
                                     </ul>
-                                    <div className="mt-3">
-                                        <PaymentButton preferenceId={plano.preferenceId} />
+
+
+                                    <div className="mt-auto">
+                                        <a
+                                            href="#"
+                                            className={`btn w-100 mt-3 ${plano.corBotao} fw-bold`}
+                                        >
+                                            Quero este plano
+                                        </a>
                                     </div>
                                 </div>
                             </div>

@@ -12,8 +12,8 @@ export default function Depoimentos() {
       <div className="container">
         <div className="row justify-content-center mb-4">
           <div className="col-lg-8 text-center">
-            <h2 className="display-5 mb-3">Depoimentos de Sucesso</h2>
-            <p className="lead">Veja como o nosso método transformou a vida de milhares de pessoas.</p>
+            <h2 className="display-5 mb-3 color-white">Depoimentos de Sucesso</h2>
+            <p className="lead color-white">Veja como o nosso método transformou a vida de milhares de pessoas.</p>
           </div>
         </div>
 
@@ -60,7 +60,7 @@ export default function Depoimentos() {
           </div>
         )}
         <div className="d-flex justify-content-center mt-5 text-center">
-          <a href="#formulario" className="botaoPrincipal">
+          <a href="#precos" className="botaoPrincipal">
             Quero Evoluir Agora
           </a>
         </div>
