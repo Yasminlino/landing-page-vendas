@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "57dbdfd9269334d8ee0f0cd965b38d64",
+    "revision": "3c68a5fd26e2f9f70ae7459d2df96a8f",
     "url": "/landing-page-vendas/index.html"
   },
   {
-    "revision": "03cc79ae1de6888af75a",
+    "revision": "c0bef26b1d6ba6e1184c",
     "url": "/landing-page-vendas/static/css/2.7446b4c7.chunk.css"
   },
   {
-    "revision": "17393a64c432bd616e08",
-    "url": "/landing-page-vendas/static/css/main.8ec1d1fe.chunk.css"
+    "revision": "2104764ca1e72428b954",
+    "url": "/landing-page-vendas/static/css/main.72f4c848.chunk.css"
   },
   {
-    "revision": "03cc79ae1de6888af75a",
-    "url": "/landing-page-vendas/static/js/2.010bbd29.chunk.js"
+    "revision": "c0bef26b1d6ba6e1184c",
+    "url": "/landing-page-vendas/static/js/2.7631f8db.chunk.js"
   },
   {
     "revision": "0ae889b0d2cac9dfef788b04a9f4e825",
-    "url": "/landing-page-vendas/static/js/2.010bbd29.chunk.js.LICENSE.txt"
+    "url": "/landing-page-vendas/static/js/2.7631f8db.chunk.js.LICENSE.txt"
   },
   {
     "revision": "0664fc5e51d87019e5b1",
     "url": "/landing-page-vendas/static/js/3.5221cc5f.chunk.js"
   },
   {
-    "revision": "17393a64c432bd616e08",
-    "url": "/landing-page-vendas/static/js/main.ec85a46f.chunk.js"
+    "revision": "2104764ca1e72428b954",
+    "url": "/landing-page-vendas/static/js/main.b136a467.chunk.js"
   },
   {
     "revision": "597192bf1a16bd5e5111",
