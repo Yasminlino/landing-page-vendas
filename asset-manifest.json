@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/landing-page-vendas/static/css/main.7666c09e.chunk.css",
-    "main.js": "/landing-page-vendas/static/js/main.92f8691d.chunk.js",
-    "main.js.map": "/landing-page-vendas/static/js/main.92f8691d.chunk.js.map",
+    "main.css": "/landing-page-vendas/static/css/main.8ec1d1fe.chunk.css",
+    "main.js": "/landing-page-vendas/static/js/main.ec85a46f.chunk.js",
+    "main.js.map": "/landing-page-vendas/static/js/main.ec85a46f.chunk.js.map",
     "runtime-main.js": "/landing-page-vendas/static/js/runtime-main.7be3269f.js",
     "runtime-main.js.map": "/landing-page-vendas/static/js/runtime-main.7be3269f.js.map",
     "static/css/2.7446b4c7.chunk.css": "/landing-page-vendas/static/css/2.7446b4c7.chunk.css",
@@ -11,15 +11,15 @@
     "static/js/3.5221cc5f.chunk.js": "/landing-page-vendas/static/js/3.5221cc5f.chunk.js",
     "static/js/3.5221cc5f.chunk.js.map": "/landing-page-vendas/static/js/3.5221cc5f.chunk.js.map",
     "index.html": "/landing-page-vendas/index.html",
-    "precache-manifest.51f29c29f87a6ff33cb30e4853360806.js": "/landing-page-vendas/precache-manifest.51f29c29f87a6ff33cb30e4853360806.js",
+    "precache-manifest.ac78aa4425b9c415e5ed137c2c59267e.js": "/landing-page-vendas/precache-manifest.ac78aa4425b9c415e5ed137c2c59267e.js",
     "service-worker.js": "/landing-page-vendas/service-worker.js",
     "static/css/2.7446b4c7.chunk.css.map": "/landing-page-vendas/static/css/2.7446b4c7.chunk.css.map",
-    "static/css/main.7666c09e.chunk.css.map": "/landing-page-vendas/static/css/main.7666c09e.chunk.css.map",
+    "static/css/main.8ec1d1fe.chunk.css.map": "/landing-page-vendas/static/css/main.8ec1d1fe.chunk.css.map",
     "static/js/2.010bbd29.chunk.js.LICENSE.txt": "/landing-page-vendas/static/js/2.010bbd29.chunk.js.LICENSE.txt",
     "static/media/Conquistas.css": "/landing-page-vendas/static/media/Background1.f818eaa1.png",
     "static/media/SecaoFabricio.css": "/landing-page-vendas/static/media/Background2.f2bf0485.png",
     "static/media/Fabricio-de-Souza.png": "/landing-page-vendas/static/media/Fabricio-de-Souza.78f8b95c.png",
-    "static/media/MethodEvolution.jpg": "/landing-page-vendas/static/media/MethodEvolution.8e491027.jpg",
+    "static/media/MethodEvolution.png": "/landing-page-vendas/static/media/MethodEvolution.2685eb52.png",
     "static/media/a.jpg": "/landing-page-vendas/static/media/a.0cdc2307.jpg",
     "static/media/b.jpg": "/landing-page-vendas/static/media/b.37165a6d.jpg",
     "static/media/c.jpg": "/landing-page-vendas/static/media/c.a889acae.jpg",
@@ -38,7 +38,7 @@
     "static/js/runtime-main.7be3269f.js",
     "static/css/2.7446b4c7.chunk.css",
     "static/js/2.010bbd29.chunk.js",
-    "static/css/main.7666c09e.chunk.css",
-    "static/js/main.92f8691d.chunk.js"
+    "static/css/main.8ec1d1fe.chunk.css",
+    "static/js/main.ec85a46f.chunk.js"
   ]
 }
