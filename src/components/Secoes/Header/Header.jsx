@@ -43,8 +43,7 @@ export default function Header() {
                             </div>
                         </div>
 
-                        <div className="col-md-6">
-
+                        <div className="">
 
                             <h1 className="display-5 anton-regular">
                                 ELIMINE ATÉ <span className="corPrimaria">10KG EM 30 DIAS</span> com o método que realmente funciona.

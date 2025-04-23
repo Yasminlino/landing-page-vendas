@@ -29,7 +29,12 @@
     margin-bottom: 1rem;
 }
 
-@media (max-width: 768px) {
+.preco-original {
+    text-decoration: line-through;
+    color: #999;    
+}
+
+@media (max-width: 900px) {
     .card {
         margin-bottom: 20px;
     }

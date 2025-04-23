@@ -1,7 +1,3 @@
-.paraquem-section {
-    background-color: #000;
-}
-
 .itemBranca {
     color: #fff;
     font-size: 1.1rem;
@@ -19,4 +15,8 @@
 .list-group-dark {
     padding: 0;
     list-style: none;
+}
+
+.corLaranja {
+    color: var(--cor-primaria) !important;
 }

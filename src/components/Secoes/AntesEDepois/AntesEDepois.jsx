@@ -25,18 +25,17 @@ export default function AntesEDepois() {
   useEffect(() => {
     const scroll = () => {
       if (scrollRef.current) {
-        // Se atingir o final, volta ao início
         if (scrollRef.current.scrollLeft >= scrollRef.current.scrollWidth / 2) {
           scrollRef.current.scrollLeft = 0;
         } else {
-          scrollRef.current.scrollLeft += 1; // Move suavemente para a direita
+          scrollRef.current.scrollLeft += 1; 
         }
       }
     };
 
-    const interval = setInterval(scroll, 20); // Ajuste a velocidade aqui (menor valor = mais rápido)
+    const interval = setInterval(scroll, 20); 
 
-    return () => clearInterval(interval); // Limpa o intervalo ao desmontar o componente
+    return () => clearInterval(interval);
   }, []);
 
   return (
@@ -51,11 +50,10 @@ export default function AntesEDepois() {
           ref={scrollRef}
           className="d-flex overflow-hidden hide-scrollbar gap-3 px-4"
           style={{
-            scrollSnapType: "none", // Desativa o snap para rolagem contínua
-            whiteSpace: "nowrap", // Garante que as imagens fiquem em linha
+            scrollSnapType: "none", 
+            whiteSpace: "nowrap", 
           }}
         >
-          {/* Duplicamos as imagens para criar o efeito de continuidade */}
           {[...imagens, ...imagens].map((img, idx) => (
             <div
               key={idx}

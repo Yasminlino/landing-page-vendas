@@ -6,7 +6,8 @@ export default function Preco() {
     const planos = [
         {
             nome: "Plano Básico",
-            preco: "R$ 199",
+            precoOriginal: "R$ 199",
+            precoPromocional: "R$ 99",
             descricao: "Acesso ao método completo por 1 mês.",
             itens: [
                 "✔ Treinos personalizados",
@@ -19,7 +20,8 @@ export default function Preco() {
         },
         {
             nome: "Plano Intermediário",
-            preco: "R$ 399",
+            precoOriginal: "R$ 199",
+            precoPromocional: "R$ 99",
             descricao: "Acesso ao método completo por 3 meses.",
             itens: [
                 "✔ Treinos personalizados",
@@ -32,7 +34,8 @@ export default function Preco() {
         },
         {
             nome: "Plano Premium",
-            preco: "R$ 599",
+            precoOriginal: "R$ 199",
+            precoPromocional: "R$ 99",
             descricao: "Acesso ao método completo por 6 meses.",
             itens: [
                 "✔ Treinos personalizados",
@@ -61,7 +64,8 @@ export default function Preco() {
                                     <h3 className="mb-0 transparent text-white">{plano.nome}</h3>
                                 </div>
                                 <div className="card-body d-flex flex-column">
-                                    <h4 className="card-title text-white">{plano.preco}</h4>
+                                    <h4 className="card-title preco-original">{plano.precoOriginal}</h4>
+                                    <h4 className="card-title text-white">{plano.precoPromocional}</h4>
                                     <p className="card-text">{plano.descricao}</p>
                                     <ul className="list-unstyled flex-grow-1">
                                         {plano.itens.map((item, i) => (

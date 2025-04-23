@@ -20,7 +20,7 @@ export default function Footer() {
 
           {/* Coluna com logo */}
           <div className="col-md-5 text-md-end text-center">
-            <img src={logo} alt="Logo" style={{ maxWidth: "180px" }} />
+            <img src={logo} alt="Logo" className="logo-footer" />
           </div>
         </div>
 

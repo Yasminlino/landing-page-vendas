@@ -27,7 +27,7 @@
 
 /* Ajustes para dispositivos móveis */
 /* Ajustes para dispositivos móveis */
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .logo-container, .image-container {
         text-align: center; /* Centraliza o conteúdo dentro das divs */
         margin: 0 auto; /* Garante que as divs fiquem centralizadas */

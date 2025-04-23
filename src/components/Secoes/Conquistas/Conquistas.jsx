@@ -13,35 +13,35 @@ import "./Conquistas.css";
 
 const conquistas = [
   {
-    icon: <IoScaleOutline className="mb-3 text-warning icones" aria-hidden="true" />,
+    icon: <IoScaleOutline style={{color: '#ff914d'}} className="mb-3 transparent icones-conquistas" aria-hidden="true" />,
     text: "Eliminar de 6 a 10kg de gordura"
   },
   {
-    icon: <IoShirtOutline className="mb-3 text-warning icones" aria-hidden="true" />,
+    icon: <IoShirtOutline style={{color: '#ff914d'}} className="mb-3 transparent icones-conquistas" aria-hidden="true" />,
     text: "Sentir suas roupas voltarem a servir"
   },
   {
-    icon: <IoFlashOutline className="mb-3 text-warning icones" aria-hidden="true" />,
+    icon: <IoFlashOutline style={{color: '#ff914d'}} className="mb-3 transparent icones-conquistas" aria-hidden="true" />,
     text: "Ter mais disposição, leveza e confiança"
   },
   {
-    icon: <IoRocketOutline className="mb-3 text-warning icones" aria-hidden="true" />,
+    icon: <IoRocketOutline style={{color: '#ff914d'}} className="mb-3 transparent icones-conquistas" aria-hidden="true" />,
     text: "Começar a sua melhor fase"
   },
   {
-    icon: <IoPeopleOutline className="mb-3 text-warning icones" aria-hidden="true" />,
+    icon: <IoPeopleOutline style={{color: '#ff914d'}} className="mb-3 transparent icones-conquistas" aria-hidden="true" />,
     text: "Inspirar quem te acompanha"
   },
   {
-    icon: <IoHeartOutline className="mb-3 text-warning icones" aria-hidden="true" />,
+    icon: <IoHeartOutline style={{color: '#ff914d'}} className="mb-3 transparent icones-conquistas" aria-hidden="true" />,
     text: "Melhorar sua saúde cardiovascular"
   },
   {
-    icon: <IoBodyOutline className="mb-3 text-warning icones" aria-hidden="true" />,
+    icon: <IoBodyOutline style={{color: '#ff914d'}} className="mb-3 transparent icones-conquistas" aria-hidden="true" />,
     text: "Tonificar e definir o corpo"
   },
   {
-    icon: <IoSunnyOutline className="mb-3 text-warning icones" aria-hidden="true" />,
+    icon: <IoSunnyOutline style={{color: '#ff914d'}} className="mb-3 transparent icones-conquistas" aria-hidden="true" />,
     text: "Acordar com mais energia e bom humor"
   }
 ];
@@ -57,16 +57,21 @@ export default function Conquistas() {
           </div>
         </div>
 
-        <div className="row g-4 text-center transparent">
+        {/* Lista das conquistas */}
+        <ul className=" list-group transparent">
           {conquistas.map((item, index) => (
-            <div className="col-sm-6 col-md-4 col-lg-3 transparent" key={index}>
-              <div className="card-transparente h-100 p-4 shadow-sm">
-                {item.icon}
-                <p className="fs-5 mb-0">{item.text}</p>
-              </div>
-            </div>
+            <li
+              className="d-flex align-items-start transparent item-conquista"
+              key={index}
+            >
+              <span className="transparent">{item.icon}</span>
+              <span className="ms-3 transparent">{item.text}</span>
+            </li>
           ))}
-        </div>
+        </ul>
+        <a href="#formulario" className="botaoPrincipal">
+          Quero Evoluir Agora
+        </a>
       </div>
     </section>
   );

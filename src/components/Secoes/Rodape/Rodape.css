@@ -5,3 +5,10 @@
     width: 80%;
     
 }
+
+@media screen and (max-width: 1000px) {
+    .logo-footer{
+        width: 30%;
+        height: 35%;
+    }
+}

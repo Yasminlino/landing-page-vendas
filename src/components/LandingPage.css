@@ -106,7 +106,7 @@ a {
     margin: 0 auto;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 900px) {
     .logo-img {
         max-width: 140px;
     }

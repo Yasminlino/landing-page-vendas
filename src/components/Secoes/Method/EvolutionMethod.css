@@ -55,7 +55,7 @@
 }
 
 /* Ajustes para dispositivos móveis */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .custom-card {
       margin-bottom: 1.5rem; /* Espaçamento entre os cartões */
     }
@@ -74,5 +74,9 @@
   
     .method-section {
       padding: 2rem 1rem; /* Ajusta o padding da seção */
+    }
+
+    .aos-init{
+      padding: 0!important;
     }
   }

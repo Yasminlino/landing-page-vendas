@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
+import { FaCheck } from "react-icons/fa";
 import "aos/dist/aos.css";
 import "../ParaQuem/ParaQuem.css";
 
@@ -9,11 +10,11 @@ export default function ParaQuem() {
   }, []);
 
   const itens = [
-    "✅ Já tentou de tudo e não vê resultados",
-    "✅ Vive o efeito sanfona",
-    "✅ Não tem tempo, motivação ou orientação certa",
-    "✅ Quer emagrecer com saúde, energia e autoestima",
-    "✅ Quer seguir um plano claro, direto e comprovado"
+    " Já tentou de tudo e não vê resultados",
+    " Vive o efeito sanfona",
+    " Não tem tempo, motivação ou orientação certa",
+    " Quer emagrecer com saúde, energia e autoestima",
+    " Quer seguir um plano claro, direto e comprovado"
   ];
 
   return (
@@ -33,12 +34,12 @@ export default function ParaQuem() {
             <ul className="list-group list-group-dark">
               {itens.map((item, index) => (
                 <li
-                  className="list-group-item itemBranca"
+                  className="itemBranca"
                   data-aos="fade-up"
                   data-aos-delay={index * 150}
                   key={index}
                 >
-                  {item}
+                  <FaCheck style={{color: '#ff914d'}} />{item}
                 </li>
               ))}
             </ul>

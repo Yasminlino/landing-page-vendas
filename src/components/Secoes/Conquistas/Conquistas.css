@@ -6,27 +6,45 @@
     color: black;
 }
 
-.card-transparente:hover {
+/* Estilo para os itens da lista */
+.list-group-item {
+    background-color: rgba(0, 0, 0, 0.555) !important;
+    border: none !important;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.2rem;
+    padding: 15px;
+    display: flex;
+    align-items: center; /* Alinha ícones e texto verticalmente */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.list-group-item:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
 }
 
-.card-transparente {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    background-color: rgba(0, 0, 0, 0.555) !important;
-    border: none !important;
-    border-radius: 10px;
+/* Alinhamento dos ícones à esquerda */
+.icone-container {
+    font-size: 1.5rem; /* Ajuste do tamanho do ícone */
+    margin-right: 15px; /* Espaço entre o ícone e o texto */
 }
 
-.card-transparente>p {
-    background-color: rgba(0, 0, 0, 0);
+/* Melhorar espaçamento entre o ícone e o texto */
+.ms-3 {
+    margin-left: 1rem;
 }
 
-/* Adicione no arquivo Conquistas.css */
-@media (max-width: 768px) {
-    .col-sm-6 {
-        flex: 0 0 100%;
-        /* Exibe um item por linha em telas menores */
-        max-width: 100%;
+
+.item-conquista {
+    display: flex;
+    align-items: center; 
+    font-size: 1.1rem;
+}
+
+/* Ajustes para dispositivos móveis */
+@media (max-width: 900px) {
+    .list-group-item {
+        font-size: 1rem;
     }
 }
