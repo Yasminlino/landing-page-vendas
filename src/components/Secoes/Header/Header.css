@@ -3,43 +3,61 @@
     padding: 3rem 1rem;
 }
 
+.alerta-topo {
+    background-color: #f2aa4c;
+    color: #101820;
+    text-align: center;
+    padding: 12px;
+    font-weight: bold;
+    font-size: 16px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.contador {
+    margin-left: 10px;
+    font-weight: bold;
+    background-color: #101820;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+
+/* Ajustes para dispositivos móveis */
 /* Ajustes para dispositivos móveis */
 @media (max-width: 768px) {
+    .logo-container, .image-container {
+        text-align: center; /* Centraliza o conteúdo dentro das divs */
+        margin: 0 auto; /* Garante que as divs fiquem centralizadas */
+    }
+
     .logo-img {
-        width: 80%; /* Reduz o tamanho do logo */
-        margin-bottom: 1.5rem;
-    }
-
-    .display-5 {
-        font-size: 1.8rem; /* Reduz o tamanho do título */
-        line-height: 1.4;
-    }
-
-    .lead {
-        font-size: 1rem; /* Ajusta o tamanho do texto descritivo */
-        line-height: 1.5;
-    }
-
-    .botaoPrincipal {
-        font-size: 1rem; /* Ajusta o tamanho do botão */
-        padding: 0.8rem 1.2rem;
+        width: 100%;
+        margin-bottom: 1rem;
     }
 
     .imgPrincipal {
-        width: 100%; /* Garante que a imagem ocupe toda a largura */
-        margin-top: 2rem;
+        width: 100%;
+        margin-top: 1rem;
     }
 
-    .youtube-video {
-        margin-top: 2rem;
+    .row {
+        justify-content: center; /* Centraliza as colunas dentro da linha */
     }
 
-    /* Reordena os elementos */
-    .col-md-6:first-child {
-        order: 2; /* Move o texto para depois da imagem */
+    .section1 .container {
+        text-align: center;
     }
-
-    .col-md-6:last-child {
-        order: 1; /* Move a imagem para o topo */
+    
+    .pedding-top{
+        padding-top: 0!important;
     }
+    
+    .logo-img,
+    .imgPrincipal {
+        display: inline-block;
+    }
+    
 }

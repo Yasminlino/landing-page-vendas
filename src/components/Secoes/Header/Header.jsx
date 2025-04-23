@@ -1,17 +1,50 @@
-import React, { useEffect } from 'react';
-import imagem from '../../../assets/images/MethodEvolution.jpg';
+import React, { useEffect, useState } from 'react';
+import imagem from '../../../assets/images/MethodEvolution.png';
 import logo from '../../../assets/images/logo.png';
 import "./Header.css";
 
-export default function Header(){
+export default function Header() {
+
+    const [timeLeft, setTimeLeft] = useState(15 * 60);
+
+    useEffect(() => {
+        const timer = setInterval(() => {
+            setTimeLeft((prevTime) => (prevTime > 0 ? prevTime - 1 : 0));
+        }, 1000);
+        return () => clearInterval(timer)
+    }
+        , []);
+
+    const formatTime = (time) => {
+        const minutes = String(Math.floor(time / 60)).padStart(2, '0');
+        const seconds = String(time % 60).padStart(2, '0');
+        return `${minutes}:${seconds}`;
+    };
     return (
         <div>
+            <div className="alerta-topo">
+                ⏰ Oferta por tempo limitado: <strong className='transparent'>Garanta seu acesso com desconto!</strong>
+                <span className="contador">⏳ {formatTime(timeLeft)}</span>
+            </div>
             {/* SECTION 1 */}
-            <section className="py-5 section1">
+            <section className="section1 pedding-top">
                 <div className="container">
+
                     <div className="row align-items-center">
+                        <div className="row align-items-center">
+                            <div className="row align-items-center justify-content-center text-center">
+                                <div className="col-4 col-md-6 logo-container">
+                                    <img src={logo} alt="Logo Método Evolution" className="logo-img mb-3 img-fluid" />
+                                </div>
+
+                                <div className="col-7 col-md-6 image-container mt-2">
+                                    <img className="imgPrincipal img-fluid" src={imagem} alt="Método Evolution" />
+                                </div>
+                            </div>
+                        </div>
+
                         <div className="col-md-6">
-                            <img src={logo} alt="Logo Método Evolution" className="logo-img mb-3" />
+
 
                             <h1 className="display-5 anton-regular">
                                 ELIMINE ATÉ <span className="corPrimaria">10KG EM 30 DIAS</span> com o método que realmente funciona.
@@ -26,9 +59,6 @@ export default function Header(){
                             </a>
                         </div>
 
-                        <div className="col-md-6 text-center mt-2">
-                            <img className="imgPrincipal img-fluid" src={imagem} alt="Método Evolution" />
-                        </div>
                     </div>
                 </div>
             </section>
