@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3c68a5fd26e2f9f70ae7459d2df96a8f",
+    "revision": "600fc3c0d8dc20a2cffa769f1afecde7",
     "url": "/landing-page-vendas/index.html"
   },
   {
-    "revision": "c0bef26b1d6ba6e1184c",
+    "revision": "1e58e6f6f29d7062f3fa",
     "url": "/landing-page-vendas/static/css/2.7446b4c7.chunk.css"
   },
   {
-    "revision": "2104764ca1e72428b954",
-    "url": "/landing-page-vendas/static/css/main.72f4c848.chunk.css"
+    "revision": "8b29fe3d16cc46aae9ca",
+    "url": "/landing-page-vendas/static/css/main.f4e98a59.chunk.css"
   },
   {
-    "revision": "c0bef26b1d6ba6e1184c",
-    "url": "/landing-page-vendas/static/js/2.7631f8db.chunk.js"
+    "revision": "1e58e6f6f29d7062f3fa",
+    "url": "/landing-page-vendas/static/js/2.2f93035e.chunk.js"
   },
   {
     "revision": "0ae889b0d2cac9dfef788b04a9f4e825",
-    "url": "/landing-page-vendas/static/js/2.7631f8db.chunk.js.LICENSE.txt"
+    "url": "/landing-page-vendas/static/js/2.2f93035e.chunk.js.LICENSE.txt"
   },
   {
     "revision": "0664fc5e51d87019e5b1",
     "url": "/landing-page-vendas/static/js/3.5221cc5f.chunk.js"
   },
   {
-    "revision": "2104764ca1e72428b954",
-    "url": "/landing-page-vendas/static/js/main.b136a467.chunk.js"
+    "revision": "8b29fe3d16cc46aae9ca",
+    "url": "/landing-page-vendas/static/js/main.17adc691.chunk.js"
   },
   {
     "revision": "597192bf1a16bd5e5111",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/landing-page-vendas/static/media/Fabricio-de-Souza.78f8b95c.png"
   },
   {
-    "revision": "2685eb52f72d41181c165a6d3a106318",
-    "url": "/landing-page-vendas/static/media/MethodEvolution.2685eb52.png"
+    "revision": "df4d0334efe9463fc19e5f40fedd2bd9",
+    "url": "/landing-page-vendas/static/media/MethodEvolution.df4d0334.png"
   },
   {
     "revision": "0a7ec1ae55a7224a4e0f03386d75e731",
