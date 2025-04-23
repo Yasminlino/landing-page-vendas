@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "600fc3c0d8dc20a2cffa769f1afecde7",
+    "revision": "b625085d3784f9b170a062897b978bb2",
     "url": "/landing-page-vendas/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/landing-page-vendas/static/css/2.7446b4c7.chunk.css"
   },
   {
-    "revision": "8b29fe3d16cc46aae9ca",
+    "revision": "8438369db26ef494caae",
     "url": "/landing-page-vendas/static/css/main.f4e98a59.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/landing-page-vendas/static/js/3.5221cc5f.chunk.js"
   },
   {
-    "revision": "8b29fe3d16cc46aae9ca",
-    "url": "/landing-page-vendas/static/js/main.17adc691.chunk.js"
+    "revision": "8438369db26ef494caae",
+    "url": "/landing-page-vendas/static/js/main.e47f8ea9.chunk.js"
   },
   {
     "revision": "597192bf1a16bd5e5111",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/landing-page-vendas/static/media/Fabricio-de-Souza.78f8b95c.png"
   },
   {
-    "revision": "df4d0334efe9463fc19e5f40fedd2bd9",
-    "url": "/landing-page-vendas/static/media/MethodEvolution.df4d0334.png"
+    "revision": "1a1a4c82c7fc03710d368e3403e71f59",
+    "url": "/landing-page-vendas/static/media/MethodEvolution.1a1a4c82.png"
   },
   {
     "revision": "0a7ec1ae55a7224a4e0f03386d75e731",
