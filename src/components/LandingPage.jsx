@@ -12,7 +12,6 @@ import Preco from './Secoes/Preco/Preco';
 import './LandingPage.css';
 
 const LandingPage = () => {
-  // Data final da promoção (30 dias a partir de hoje)
   const promoEndDate = new Date('2025-05-03');
   promoEndDate.setDate(promoEndDate.getDate() + 30);
 
@@ -34,23 +33,25 @@ const LandingPage = () => {
         const hours = Math.floor((difference / 1000 / 60 / 60) % 24);
         const days = Math.floor(difference / (1000 * 60 * 60 * 24));
 
+        // Função para formatar com dois dígitos
+        const format = (num) => String(num).padStart(2, '0');
+
         setTimeLeft({
-          days,
-          hours,
-          minutes,
-          seconds,
+          days: format(days),
+          hours: format(hours),
+          minutes: format(minutes),
+          seconds: format(seconds),
         });
       } else {
-        setTimeLeft({ days: 0, hours: 0, minutes: 0, seconds: 0 });
+        setTimeLeft({ days: '00', hours: '00', minutes: '00', seconds: '00' });
       }
     };
 
     const timer = setInterval(calculateTimeLeft, 1000);
-
     calculateTimeLeft();
 
     return () => clearInterval(timer);
-  }, []); 
+  }, []);
 
   return (
     <div>

@@ -38,7 +38,7 @@ export default function ParaQuem() {
                   data-aos-delay={index * 150}
                   key={index}
                 >
-                  <FaCheck style={{color: '#ff914d'}} />{item}
+                  <FaCheck style={{color: '#ff914d', backgroundColor: '#00000000'}} />{item}
                 </li>
               ))}
             </ul>

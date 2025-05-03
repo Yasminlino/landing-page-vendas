@@ -56,26 +56,31 @@ export default function Preco({ timeLeft }) {
             corBotao: "btn-success",
         }
     ];
-    
-    const isPromoActive = timeLeft > 0;
+
+    const isPromoActive =
+        timeLeft.days > 0 ||
+        timeLeft.hours > 0 ||
+        timeLeft.minutes > 0 ||
+        timeLeft.seconds > 0;
+
 
     return (
         <section className="py-5 text-center sectionPreco" id="precos">
-            <div className="container transparent">
-                <h2 className="mb-4 transparent color-white">Escolha o plano ideal para você</h2>
-                <p className="mb-5 transparent color-white">
+            <div className="container">
+                <h2 className="mb-4 color-white">Escolha o plano ideal para você</h2>
+                <p className="mb-5 color-white">
                     Transforme sua vida com o método que já ajudou milhares de pessoas a emagrecer com saúde.
                 </p>
-                <div className="row transparent">
+                <div className="row">
                     {planos.map((plano, index) => (
-                        <div className="col-md-4 mb-4 transparent" key={index}>
+                        <div className="col-md-4 mb-4" key={index}>
                             <div className="card h-100 shadow-sm d-flex flex-column card-preco">
-                                <div className={`card-header transparent ${plano.corCabecalho}`}>
+                                <div className={`card-header ${plano.corCabecalho}`}>
                                     <h3 className="mb-0 transparent">{plano.nome}</h3>
                                 </div>
                                 <div className="card-body d-flex flex-column">
                                     {isPromoActive && (
-                                        <h4 className="text-muted text-decoration-line-through transparent">{plano.precoOriginal}</h4>
+                                        <h4 className="text-muted text-decoration-line-through">{plano.precoOriginal}</h4>
                                     )}
                                     <h3>{isPromoActive ? plano.precoPromocional : plano.precoOriginal}</h3>
                                     <p className="mb-3">{plano.descricao}</p>
@@ -87,7 +92,7 @@ export default function Preco({ timeLeft }) {
                                             return (
                                                 <li key={i} className="d-flex align-items-center mb-2">
                                                     <span className="me-2">{item.icone}</span>
-                                                    <span className={isIndisponivel ? "text-decoration-line-through text-muted" : ""}>
+                                                    <span className={isIndisponivel ? "text-decoration-line-through text-line" : ""}>
                                                         {item.texto}
                                                     </span>
                                                 </li>

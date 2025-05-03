@@ -2,13 +2,9 @@
     color: rgba(255, 255, 255, 0.514);
 }
 .container-footer{
-    width: 80%;
-    
+    width: 80%; 
 }
-
-@media screen and (max-width: 1000px) {
-    .logo-footer{
-        width: 30%;
-        height: 35%;
-    }
+.logo-footer{
+    width: 30%;
+    height: 35%;
 }

@@ -1,31 +1,91 @@
 .sectionPreco {
-    background-color: #101820;
-    /* fundo escuro */
+    background-color: #000;  /* fundo preto */
+    padding: 60px 20px;
 }
 
 .card-preco {
-    background-color: rgba(255, 255, 255, 0.05);
-    /* leve transparência */
+    background: #222;  /* fundo escuro para os cards */
+    border: 1px solid white!important;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card{
+    --bs-card-bg: black!important;
+}
+
+.card-preco:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.8);
+}
+
+.card-header > h3 {
+    font-size: 1.6rem;
+    color: #fff; /* texto branco no cabeçalho */
+}
+.text-line{
+    color: rgba(139, 37, 37, 0.699)!important;
+}
+.card-body > h3 {
+    font-size: 2rem;
+    color: #f2aa4c;
+}
+
+.card-body > p {
+    color: #ddd; 
+    margin: 1rem!important;
+}
+
+.card-body ul {
+    color: #ccc;  /* lista em cinza claro */
+    padding-left: 0;
+}
+
+.card-body ul li span {
+    color: inherit;
+}
+
+.card-body{
+    margin-bottom: 1rem ;
+}
+
+.btn {
+    padding: 12px;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-warning {
+    background-color: #f2aa4c;
+    color: #000;
     border: none;
-    backdrop-filter: blur(4px);
 }
 
-.card-header>h3,
-.card-body>h4,
-.card-body>h3,
-.card-body>p,
-.card-body>div,
-.card-body>ul,
-.card-body>ul>li,
-.card-body>ul>li>span,
-.card-body>ul>li>span>svg
-{
-    background-color: rgba(0, 0, 0, 0) !important;
-    color: black;
+.btn-warning:hover {
+    background-color: #d18e32;
+    color: #000;
 }
 
-.texto-preto {
-    color: #000000;
+.btn-dark {
+    background-color: #333;
+    color: #fff;
+    border: none;
+}
+
+.btn-dark:hover {
+    background-color: #555;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #218838;
 }
 
 .corLaranja {
@@ -36,26 +96,9 @@
     color: #e63946 !important;
 }
 
-.btn {
-    padding: 12px 0;
-}
-
-.card-body
-{
-    background-color: #ffffffec;
-}
-
-.card-preco{
-    border-radius: 10px;
-}
-
 @media (max-width: 900px) {
-    .card {
-        margin-bottom: 20px;
-    }
-
     .card-title {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     .card-body ul {

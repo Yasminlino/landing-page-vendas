@@ -1,5 +1,5 @@
 import React from "react";
-import { FaInstagram, FaFacebookF, FaYoutube } from "react-icons/fa";
+import { FaInstagram, FaFacebookF, FaYoutube, FaWhatsapp } from "react-icons/fa";
 import "./Rodape.css";
 import logo from "../../../assets/images/logo.png";
 
@@ -30,7 +30,7 @@ export default function Footer() {
           <ul className="list-unstyled d-flex mb-0">
             <li className="ms-3">
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/evolutionsportsstudio/"
                 target="_blank"
                 rel="noreferrer"
                 className="text-light fs-5"
@@ -50,12 +50,22 @@ export default function Footer() {
             </li>
             <li className="ms-3">
               <a
-                href="https://youtube.com"
+                href="https://youtube.com/@fabriciometododaevolucao"
                 target="_blank"
                 rel="noreferrer"
                 className="text-light fs-5"
               >
                 <FaYoutube />
+              </a>
+            </li>
+            <li className="ms-3">
+              <a
+                href="https://youtube.com"
+                target="_blank"
+                rel="noreferrer"
+                className="text-light fs-5"
+              >
+                <FaWhatsapp />
               </a>
             </li>
           </ul>

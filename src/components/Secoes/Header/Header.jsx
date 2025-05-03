@@ -31,6 +31,18 @@ export default function Header({ timeLeft }) {
                     </div>
                 </div>
             </section>
+            <section className="py-5 text-center">
+                 <div className="container">
+                     <h2 className="mb-4 corPrimaria">Entenda como você pode começar a evoluir hoje:</h2>
+                     <div className="ratio ratio-16x9 youtube-video">
+                         <iframe
+                             src="https://www.youtube.com/embed/7FSCfEJR3lQ?si=kbuvWBjB0-94RK3s"
+                             title="Vídeo"
+                             allowFullScreen
+                         ></iframe>
+                     </div>
+                 </div>
+             </section>
         </div>
     );
 };
