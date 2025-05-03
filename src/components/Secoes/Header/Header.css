@@ -3,10 +3,10 @@
     padding: 3rem 1rem;
 }
 
-h1{
-    font-family: 'Bitcrusher', sans-serif!important;
-    font-size: 4rem!important;
-}  
+h1 {
+    font-family: 'Bitcrusher', sans-serif !important;
+    font-size: 4rem !important;
+}
 
 .alerta-topo {
     background-color: #f2aa4c;
@@ -29,15 +29,16 @@ h1{
     border-radius: 4px;
 }
 
-.corAmarela{
+.corAmarela {
     color: #ffde59;
 }
 
-.texto-header{
+.texto-header {
     font-family: 'Poppins', sans-serif;
     border-left: 4px solid #ffde59;
     padding-left: 1rem;
 }
+
 .section-header {
     background-image: url(../../../assets/images/Imagem-capa-desktop.png);
     background-size: contain;
@@ -47,32 +48,37 @@ h1{
     height: 90vh;
 }
 
-.section-header>div{
+.section-header>div {
     width: 70%;
-    margin:0;
+    margin: 0;
 }
 
-.botaoPrincipal{
-    max-width: 100%!important;
+.botaoPrincipal {
+    max-width: 100% !important;
 }
 
 @media (max-width: 1000px) {
-    h1{
-        font-size: 3rem!important;
-    } 
-
-    .section-header{
-        background-image: url(../../../assets/images/Imagem-capa-mobile.png);
+    h1 {
+        font-size: 3rem !important;
     }
 
-    .section-header>div{
+    .section-header {
+        background-image: url(../../../assets/images/Imagem-capa-mobile.png);
+        background-size: contain;
+        background-position: top;
+        height: 90vh;
+    }
+
+    .section-header>div {
         margin-right: 1rem;
         width: 80%;
-        margin:0;
+        margin: 0;
     }
-    .logo-container, .image-container {
-        text-align: center; 
-        margin: 0 auto; 
+
+    .logo-container,
+    .image-container {
+        text-align: center;
+        margin: 0 auto;
     }
 
     .logo-img {
@@ -88,23 +94,77 @@ h1{
     .row {
         justify-content: center;
     }
-    
-    .pedding-top{
-        padding-top: 0!important;
+
+    .pedding-top {
+        padding-top: 0 !important;
     }
-    
+
     .logo-img,
     .imgPrincipal {
         display: inline-block;
     }
-    
+
 }
 
 @media (max-width: 726px) {
-    .section-header>div{
+    .section-header {
+        background-image: url(../../../assets/images/Imagem-capa-mobile.png);
+        background-size: contain;
+        background-position: top;
+        height: 90vh;
+    }
+
+    .section-header>div {
         margin-right: 1rem;
         width: 95%;
-        margin:0;
+        margin: 0;
     }
 }
 
+@media (max-width: 500px) {
+    .texto-header{
+        font-size: 1rem !important;
+    }
+
+    h1{
+        font-size: 2.5rem!important;
+    }
+    .section-header {
+        background-image: url(../../../assets/images/Imagem-capa-mobile2.jpg) !important;
+        background-size: contain;
+        background-position: top;
+        height: 70vh;
+    }
+
+    .section-header>div {
+        margin-right: 1rem;
+        width: 95%;
+        margin: 0;
+    }
+}
+
+@media (max-width: 426px) {
+    .texto-header{
+        font-size: 0.8rem !important;
+    }
+
+    h1{
+        font-size: 2rem!important;
+    }
+    .section-header {
+        background-image: url(../../../assets/images/Imagem-capa-mobile2.jpg) !important;
+        background-size: contain;
+        background-position: top;
+        height: 90vh;
+    }
+
+    .section-header>div {
+        margin-right: 1rem;
+        width: 95%;
+        margin: 0;
+    }
+
+    a{
+        font-size: 1rem!important;
+    }
+}
