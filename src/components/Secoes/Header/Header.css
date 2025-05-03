@@ -24,11 +24,34 @@
     border-radius: 4px;
 }
 
+.section-header {
+    background-image: url(../../../assets/images/Imagem-capa-desktop.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+    height: 90vh;
+}
+
+.section-header>div{
+    width: 70%;
+    margin:0;
+}
+
 .botaoPrincipal{
     max-width: 100%!important;
 }
 
 @media (max-width: 1000px) {
+    .section-header{
+        background-image: url(../../../assets/images/Imagem-capa-mobile.png);
+    }
+
+    .section-header>div{
+        margin-right: 1rem;
+        width: 80%;
+        margin:0;
+    }
     .logo-container, .image-container {
         text-align: center; 
         margin: 0 auto; 
@@ -47,10 +70,6 @@
     .row {
         justify-content: center;
     }
-
-    .section1 .container {
-        text-align: center;
-    }
     
     .pedding-top{
         padding-top: 0!important;
@@ -62,3 +81,12 @@
     }
     
 }
+
+@media (max-width: 726px) {
+    .section-header>div{
+        margin-right: 1rem;
+        width: 95%;
+        margin:0;
+    }
+}
+

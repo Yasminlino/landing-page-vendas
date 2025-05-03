@@ -21,7 +21,10 @@ export default function Method() {
           <div className="col-md-8 mx-auto text-center" data-aos="fade-up">
             <h2 className="display-5 fw-bold mb-4">O que é o The Evolution Method?</h2>
             <p className="lead text-light">
-              Um programa completo de emagrecimento e transformação corporal que combina treinos personalizados, alimentação descomplicada e estratégias mentais para manter a motivação. Tudo adaptado à sua rotina e ao seu estilo de vida.
+              Um método criado para quem está cansado(a) de tentar fórmulas prontas que não funcionam, e quer emagrecer de forma sustentável, sem passar fome, sem treinos extremos e sem abrir mão da vida social e emocional.
+            </p>
+            <p>
+              Aqui, você vai aprender a transformar sua relação com o corpo, com a comida e, principalmente, com você mesmo(a).
             </p>
           </div>
         </div>
@@ -59,11 +62,11 @@ export default function Method() {
         </div>
       </div>
 
-        <div className="d-flex justify-content-center mt-5 text-center">
-          <a href="#precos" className="botaoPrincipal">
-            Aproveitar os benefícios
-          </a>
-        </div>
+      <div className="d-flex justify-content-center mt-5 text-center">
+        <a href="#precos" className="botaoPrincipal">
+          Aproveitar os benefícios
+        </a>
+      </div>
     </section>
   );
 }

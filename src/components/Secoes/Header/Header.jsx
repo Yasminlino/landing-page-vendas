@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import imagem from '../../../assets/images/MethodEvolution.png';
 import logo from '../../../assets/images/logo.png';
 import "./Header.css";
 
@@ -27,30 +26,16 @@ export default function Header() {
                 <span className="contador">⏳ {formatTime(timeLeft)}</span>
             </div>
             {/* SECTION 1 */}
-            <section className="section1 pedding-top">
-                <div className="container">
-
-                    <div className="row align-items-center">
-                        <div className="row align-items-center">
-                            <div className="row align-items-center justify-content-center text-center">
-                                <div className="col-4 col-md-6 logo-container">
-                                    <img src={logo} alt="Logo Método Evolution" className="logo-img mb-3" />
-                                </div>
-
-                                <div className="col-7 col-md-6 image-container mt-2">
-                                    <img className="imgPrincipal" src={imagem} alt="Método Evolution" />
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="">
-
-                            <h1 className="display-5 anton-regular color-white ">
-                                ELIMINE ATÉ <span className="corPrimaria">10KG EM 30 DIAS</span> com o método que realmente funciona.
+            <section className="section1 pedding-top section-header transparent d-flex">
+                <div className="container transparent d-flex align-items-end">
+                    <div className="row align-items-center transparent">
+                       <div className="transparent">
+                            <h1 className="display-5 anton-regular color-white transparent">
+                                PROTOCOLO DE EMAGRECIMENTO ACELERADO: RESULTADOS REAIS <span className="corPrimaria transparent">EM ATÉ 30 DIAS</span>
                             </h1>
 
-                            <p className="lead mt-3 color-white ">
-                                Chegou a hora de parar de tentar sozinha e começar a evoluir de verdade. Com orientação certa, disciplina e o método que mais transforma vidas, o seu resultado vem — e vem rápido.
+                            <p className="lead mt-3 color-white transparent">
+                                Comprovado por dezenas de alunos e baseado em experiência real: elimine até 10kg em 30 dias com um passo a passo estruturado e acompanhamento de verdade.
                             </p>
 
                             <a href="#precos" className="botaoPrincipal">

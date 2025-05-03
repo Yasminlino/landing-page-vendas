@@ -10,11 +10,10 @@ export default function ParaQuem() {
   }, []);
 
   const itens = [
-    " Já tentou de tudo e não vê resultados",
-    " Vive o efeito sanfona",
-    " Não tem tempo, motivação ou orientação certa",
-    " Quer emagrecer com saúde, energia e autoestima",
-    " Quer seguir um plano claro, direto e comprovado"
+    " Já tentou de tudo: Mesmo com inúmeras tentativas, ainda não encontrou um método que se encaixe perfeitamente na sua rotina.",
+    " Busca mudança de verdade: Está cansado de soluções temporárias e quer uma transformação que vá além da balança.",
+    " Valoriza a saúde e o bem-estar: Deseja emagrecer de forma inteligente, sem abrir mão do que gosta, respeitando o seu corpo e seus limites.",    
+    " Está pronto para o comprometimento: Se você está disposto a seguir um passo a passo validado e experimentar uma nova abordagem, essa é a sua chance."
   ];
 
   return (
@@ -22,7 +21,7 @@ export default function ParaQuem() {
       <div className="container">
         <div className="row justify-content-center mb-5">
           <div className="col-lg-8 text-center">
-            <h2 className="display-5 fw-bold mb-4 text-white">Para quem é o The Evolution Method?</h2>
+            <h2 className="display-5 fw-bold mb-4 text-white">Para quem é o este Método?</h2>
             <p className="lead text-light">
               Descubra como o The Evolution Method pode transformar sua vida, ajudando você a emagrecer com saúde e alcançar seus objetivos.
             </p>
