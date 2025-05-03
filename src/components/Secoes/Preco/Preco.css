@@ -83,7 +83,7 @@
 }
 
 .btn-dark:hover {
-    background-color: #555;
+    background-color: #555!important;
 }
 
 .btn-success {
@@ -93,7 +93,7 @@
 }
 
 .btn-success:hover {
-    background-color: #218838;
+    background-color: #218838!important;
 }
 
 .corLaranja {
