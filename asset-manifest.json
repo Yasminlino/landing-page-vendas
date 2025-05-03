@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/landing-page-vendas/static/css/main.6c633432.chunk.css",
+    "main.css": "/landing-page-vendas/static/css/main.12b20394.chunk.css",
     "main.js": "/landing-page-vendas/static/js/main.e7982479.chunk.js",
     "main.js.map": "/landing-page-vendas/static/js/main.e7982479.chunk.js.map",
     "runtime-main.js": "/landing-page-vendas/static/js/runtime-main.8098bdec.js",
@@ -11,10 +11,10 @@
     "static/js/3.92c6bdee.chunk.js": "/landing-page-vendas/static/js/3.92c6bdee.chunk.js",
     "static/js/3.92c6bdee.chunk.js.map": "/landing-page-vendas/static/js/3.92c6bdee.chunk.js.map",
     "index.html": "/landing-page-vendas/index.html",
-    "precache-manifest.eb9a1322bdbbbbbc6f6e60aae63aa786.js": "/landing-page-vendas/precache-manifest.eb9a1322bdbbbbbc6f6e60aae63aa786.js",
+    "precache-manifest.a68ea6aebe0770ce20e37f419bfdd16e.js": "/landing-page-vendas/precache-manifest.a68ea6aebe0770ce20e37f419bfdd16e.js",
     "service-worker.js": "/landing-page-vendas/service-worker.js",
     "static/css/2.7446b4c7.chunk.css.map": "/landing-page-vendas/static/css/2.7446b4c7.chunk.css.map",
-    "static/css/main.6c633432.chunk.css.map": "/landing-page-vendas/static/css/main.6c633432.chunk.css.map",
+    "static/css/main.12b20394.chunk.css.map": "/landing-page-vendas/static/css/main.12b20394.chunk.css.map",
     "static/js/2.d25d069a.chunk.js.LICENSE.txt": "/landing-page-vendas/static/js/2.d25d069a.chunk.js.LICENSE.txt",
     "static/media/Conquistas.css": "/landing-page-vendas/static/media/Background1.f818eaa1.png",
     "static/media/SecaoFabricio.css": "/landing-page-vendas/static/media/Background2.f2bf0485.png",
@@ -38,7 +38,7 @@
     "static/js/runtime-main.8098bdec.js",
     "static/css/2.7446b4c7.chunk.css",
     "static/js/2.d25d069a.chunk.js",
-    "static/css/main.6c633432.chunk.css",
+    "static/css/main.12b20394.chunk.css",
     "static/js/main.e7982479.chunk.js"
   ]
 }
