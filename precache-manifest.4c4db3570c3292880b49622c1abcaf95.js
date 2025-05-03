@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b625085d3784f9b170a062897b978bb2",
+    "revision": "2d3bd1e60dbb6a51251aeedb5ebeb913",
     "url": "/landing-page-vendas/index.html"
   },
   {
-    "revision": "1e58e6f6f29d7062f3fa",
+    "revision": "287e090249964f42c814",
     "url": "/landing-page-vendas/static/css/2.7446b4c7.chunk.css"
   },
   {
-    "revision": "8438369db26ef494caae",
-    "url": "/landing-page-vendas/static/css/main.f4e98a59.chunk.css"
+    "revision": "b1a856b67edb0174c243",
+    "url": "/landing-page-vendas/static/css/main.60deeabd.chunk.css"
   },
   {
-    "revision": "1e58e6f6f29d7062f3fa",
-    "url": "/landing-page-vendas/static/js/2.2f93035e.chunk.js"
+    "revision": "287e090249964f42c814",
+    "url": "/landing-page-vendas/static/js/2.2c551d7c.chunk.js"
   },
   {
     "revision": "0ae889b0d2cac9dfef788b04a9f4e825",
-    "url": "/landing-page-vendas/static/js/2.2f93035e.chunk.js.LICENSE.txt"
+    "url": "/landing-page-vendas/static/js/2.2c551d7c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0664fc5e51d87019e5b1",
-    "url": "/landing-page-vendas/static/js/3.5221cc5f.chunk.js"
+    "revision": "0179f8e87ac81fa0c7a4",
+    "url": "/landing-page-vendas/static/js/3.92c6bdee.chunk.js"
   },
   {
-    "revision": "8438369db26ef494caae",
-    "url": "/landing-page-vendas/static/js/main.e47f8ea9.chunk.js"
+    "revision": "b1a856b67edb0174c243",
+    "url": "/landing-page-vendas/static/js/main.3b2fa43c.chunk.js"
   },
   {
-    "revision": "597192bf1a16bd5e5111",
-    "url": "/landing-page-vendas/static/js/runtime-main.7be3269f.js"
+    "revision": "4b607c964308925c99c2",
+    "url": "/landing-page-vendas/static/js/runtime-main.8098bdec.js"
   },
   {
     "revision": "f818eaa15a0ca5038adc93efb676769b",
@@ -44,8 +44,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/landing-page-vendas/static/media/Fabricio-de-Souza.78f8b95c.png"
   },
   {
-    "revision": "1a1a4c82c7fc03710d368e3403e71f59",
-    "url": "/landing-page-vendas/static/media/MethodEvolution.1a1a4c82.png"
+    "revision": "c72ee78a533a803f7bc28b1b8b4bc181",
+    "url": "/landing-page-vendas/static/media/Imagem-capa-desktop.c72ee78a.png"
+  },
+  {
+    "revision": "aa44b044569b299bf13bbc820ed2f89c",
+    "url": "/landing-page-vendas/static/media/Imagem-capa-mobile.aa44b044.png"
   },
   {
     "revision": "0a7ec1ae55a7224a4e0f03386d75e731",
