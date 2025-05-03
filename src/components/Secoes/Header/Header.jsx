@@ -30,12 +30,12 @@ export default function Header() {
                 <div className="container transparent d-flex align-items-end">
                     <div className="row align-items-center transparent">
                        <div className="transparent">
-                            <h1 className="display-5 anton-regular color-white transparent">
-                                PROTOCOLO DE EMAGRECIMENTO ACELERADO: RESULTADOS REAIS <span className="corPrimaria transparent">EM ATÉ 30 DIAS</span>
+                            <h1 className="display-5 anton-regular transparent corAmarela">
+                                ELIMINE <span className="color-white transparent">ATÉ 10KG</span> EM <span className="transparent">30 DIAS</span> COMO O MÉTODO QUE <span className="color-white transparent">REALMENTE FUNCIONA.</span>
                             </h1>
 
-                            <p className="lead mt-3 color-white transparent">
-                                Comprovado por dezenas de alunos e baseado em experiência real: elimine até 10kg em 30 dias com um passo a passo estruturado e acompanhamento de verdade.
+                            <p className="lead mt-3 color-white transparent texto-header">
+                                Se torne o aluno de quem já mudou o corpo e a mente de <span className='corAmarela transparent'>milhares de pessoas em projetos de emagrecimento</span> e tenha o resultado que você buscou a vida inteira nos próximos 30 dias.
                             </p>
 
                             <a href="#precos" className="botaoPrincipal">

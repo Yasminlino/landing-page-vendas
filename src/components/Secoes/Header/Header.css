@@ -3,6 +3,11 @@
     padding: 3rem 1rem;
 }
 
+h1{
+    font-family: 'Bitcrusher', sans-serif!important;
+    font-size: 4rem!important;
+}  
+
 .alerta-topo {
     background-color: #f2aa4c;
     color: #101820;
@@ -24,6 +29,15 @@
     border-radius: 4px;
 }
 
+.corAmarela{
+    color: #ffde59;
+}
+
+.texto-header{
+    font-family: 'Poppins', sans-serif;
+    border-left: 4px solid #ffde59;
+    padding-left: 1rem;
+}
 .section-header {
     background-image: url(../../../assets/images/Imagem-capa-desktop.png);
     background-size: contain;
@@ -43,6 +57,10 @@
 }
 
 @media (max-width: 1000px) {
+    h1{
+        font-size: 3rem!important;
+    } 
+
     .section-header{
         background-image: url(../../../assets/images/Imagem-capa-mobile.png);
     }
