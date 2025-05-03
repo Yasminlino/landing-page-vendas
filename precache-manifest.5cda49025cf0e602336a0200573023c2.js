@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2d3bd1e60dbb6a51251aeedb5ebeb913",
+    "revision": "84731aa351e54c373dcb047c32268cc6",
     "url": "/landing-page-vendas/index.html"
   },
   {
-    "revision": "287e090249964f42c814",
+    "revision": "d384c6e249ff711567ee",
     "url": "/landing-page-vendas/static/css/2.7446b4c7.chunk.css"
   },
   {
-    "revision": "b1a856b67edb0174c243",
-    "url": "/landing-page-vendas/static/css/main.60deeabd.chunk.css"
+    "revision": "e2b734f1764b4c926c5f",
+    "url": "/landing-page-vendas/static/css/main.47ee4208.chunk.css"
   },
   {
-    "revision": "287e090249964f42c814",
-    "url": "/landing-page-vendas/static/js/2.2c551d7c.chunk.js"
+    "revision": "d384c6e249ff711567ee",
+    "url": "/landing-page-vendas/static/js/2.d3e8fba3.chunk.js"
   },
   {
     "revision": "0ae889b0d2cac9dfef788b04a9f4e825",
-    "url": "/landing-page-vendas/static/js/2.2c551d7c.chunk.js.LICENSE.txt"
+    "url": "/landing-page-vendas/static/js/2.d3e8fba3.chunk.js.LICENSE.txt"
   },
   {
     "revision": "0179f8e87ac81fa0c7a4",
     "url": "/landing-page-vendas/static/js/3.92c6bdee.chunk.js"
   },
   {
-    "revision": "b1a856b67edb0174c243",
-    "url": "/landing-page-vendas/static/js/main.3b2fa43c.chunk.js"
+    "revision": "e2b734f1764b4c926c5f",
+    "url": "/landing-page-vendas/static/js/main.4e3a0385.chunk.js"
   },
   {
     "revision": "4b607c964308925c99c2",
@@ -50,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "aa44b044569b299bf13bbc820ed2f89c",
     "url": "/landing-page-vendas/static/media/Imagem-capa-mobile.aa44b044.png"
+  },
+  {
+    "revision": "1d0510884b1bcc11f2132a76e33de6dc",
+    "url": "/landing-page-vendas/static/media/Imagem-capa-mobile2.1d051088.jpg"
   },
   {
     "revision": "0a7ec1ae55a7224a4e0f03386d75e731",
