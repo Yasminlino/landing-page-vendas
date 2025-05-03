@@ -20,6 +20,9 @@
 .card-header > h3 {
     font-size: 1.6rem;
     color: #fff;
+}
+
+.card-header {
     border-block-start: 1px solid white;
     border-left: 1px solid white;
     border-right: 1px solid white;
@@ -31,11 +34,6 @@
 .card-body > h3 {
     font-size: 2rem;
     color: #f2aa4c;
-    border-bottom: 1px solid white;
-    border-left: 1px solid white;
-    border-right: 1px solid white;
-    border-radius: 0 0 15px 15px;
-    border-radius: 0 0 15px 15px;
 }
 
 .card-body > p {
@@ -53,7 +51,11 @@
 }
 
 .card-body{
-    margin-bottom: 1rem ;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-radius: 0 0 15px 15px;
+    border-radius: 0 0 15px 15px;
 }
 
 .btn {
@@ -64,18 +66,18 @@
 }
 
 .btn-warning {
-    background-color: #f2aa4c;
+    background-color: #f2aa4c!important;
     color: #000;
     border: none;
 }
 
 .btn-warning:hover {
-    background-color: #d18e32;
+    background-color: #d18e32!important;
     color: #000;
 }
 
 .btn-dark {
-    background-color: #333;
+    background-color: #333!important;
     color: #fff;
     border: none;
 }
@@ -85,7 +87,7 @@
 }
 
 .btn-success {
-    background-color: #28a745;
+    background-color: #28a745!important;
     color: #fff;
     border: none;
 }
