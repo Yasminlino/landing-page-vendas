@@ -2,7 +2,7 @@ import React from "react";
 import { FaCheck, FaTimes } from "react-icons/fa";
 import './Preco.css';
 
-export default function Preco() {
+export default function Preco({ timeLeft }) {
     const planos = [
         {
             nome: "Plano Básico",
@@ -20,7 +20,6 @@ export default function Preco() {
             ],
             corCabecalho: "bg-warning",
             corBotao: "btn-warning",
-            preferenceId: "1601361397-3c177a85-66d7-4d87-9d39-3ab9cf999d46"
         },
         {
             nome: "Plano Intermediário",
@@ -38,7 +37,6 @@ export default function Preco() {
             ],
             corCabecalho: "bg-primary",
             corBotao: "btn-dark",
-            preferenceId: "PREFERENCE_ID_INTERMEDIARIO"
         },
         {
             nome: "Plano Premium",
@@ -56,9 +54,10 @@ export default function Preco() {
             ],
             corCabecalho: "bg-success",
             corBotao: "btn-success",
-            preferenceId: "PREFERENCE_ID_PREMIUM"
         }
     ];
+    
+    const isPromoActive = timeLeft > 0;
 
     return (
         <section className="py-5 text-center sectionPreco" id="precos">
@@ -75,8 +74,10 @@ export default function Preco() {
                                     <h3 className="mb-0 transparent">{plano.nome}</h3>
                                 </div>
                                 <div className="card-body d-flex flex-column">
-                                    <h4 className="text-muted text-decoration-line-through transparent">{plano.precoOriginal}</h4>
-                                    <h3>{plano.precoPromocional}</h3>
+                                    {isPromoActive && (
+                                        <h4 className="text-muted text-decoration-line-through transparent">{plano.precoOriginal}</h4>
+                                    )}
+                                    <h3>{isPromoActive ? plano.precoPromocional : plano.precoOriginal}</h3>
                                     <p className="mb-3">{plano.descricao}</p>
 
                                     <ul className="list-unstyled flex-grow-1 text-start">
@@ -94,12 +95,8 @@ export default function Preco() {
                                         })}
                                     </ul>
 
-
                                     <div className="mt-auto">
-                                        <a
-                                            href="#"
-                                            className={`btn w-100 mt-3 ${plano.corBotao} fw-bold`}
-                                        >
+                                        <a href="#" className={`btn w-100 mt-3 ${plano.corBotao} fw-bold`}>
                                             Quero este plano
                                         </a>
                                     </div>
