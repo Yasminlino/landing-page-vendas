@@ -4,9 +4,6 @@
 }
 
 .card-preco {
-    background: #222;  /* fundo escuro para os cards */
-    border: 1px solid white!important;
-    border-radius: 20px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -22,14 +19,23 @@
 
 .card-header > h3 {
     font-size: 1.6rem;
-    color: #fff; /* texto branco no cabeçalho */
+    color: #fff;
+    border-block-start: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
 }
+
 .text-line{
     color: rgba(139, 37, 37, 0.699)!important;
 }
 .card-body > h3 {
     font-size: 2rem;
     color: #f2aa4c;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-radius: 0 0 15px 15px;
+    border-radius: 0 0 15px 15px;
 }
 
 .card-body > p {
