@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e9cfd812c40d1b75315bd7659a53a3b7",
+    "revision": "e80b2c9c7e22455f99853eae4e685be3",
     "url": "/landing-page-vendas/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/landing-page-vendas/static/css/2.7446b4c7.chunk.css"
   },
   {
-    "revision": "50537065170cb82915fe",
-    "url": "/landing-page-vendas/static/css/main.f1891735.chunk.css"
+    "revision": "762aab8d1c1b62354d78",
+    "url": "/landing-page-vendas/static/css/main.a2ecef24.chunk.css"
   },
   {
     "revision": "cf5a23e449cd01945b93",
@@ -24,7 +24,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/landing-page-vendas/static/js/3.92c6bdee.chunk.js"
   },
   {
-    "revision": "50537065170cb82915fe",
+    "revision": "762aab8d1c1b62354d78",
     "url": "/landing-page-vendas/static/js/main.e7982479.chunk.js"
   },
   {
@@ -44,16 +44,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/landing-page-vendas/static/media/Fabricio-de-Souza.78f8b95c.png"
   },
   {
-    "revision": "c72ee78a533a803f7bc28b1b8b4bc181",
-    "url": "/landing-page-vendas/static/media/Imagem-capa-desktop.c72ee78a.png"
+    "revision": "ed6ab7b3473f507f0b6c0c665b9b118e",
+    "url": "/landing-page-vendas/static/media/Imagem-capa-desktop.ed6ab7b3.png"
   },
   {
-    "revision": "aa44b044569b299bf13bbc820ed2f89c",
-    "url": "/landing-page-vendas/static/media/Imagem-capa-mobile.aa44b044.png"
+    "revision": "5d8a45a970e8986af91e7ef6ff9adb5f",
+    "url": "/landing-page-vendas/static/media/Imagem-capa-mobile.5d8a45a9.png"
   },
   {
-    "revision": "1d0510884b1bcc11f2132a76e33de6dc",
-    "url": "/landing-page-vendas/static/media/Imagem-capa-mobile2.1d051088.jpg"
+    "revision": "c12a88e8328da1522599cf391b212a5d",
+    "url": "/landing-page-vendas/static/media/Imagem-capa-mobile2.c12a88e8.png"
   },
   {
     "revision": "0a7ec1ae55a7224a4e0f03386d75e731",
