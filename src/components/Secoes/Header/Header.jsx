@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Preco from '../Preco/Preco'; // Importe o componente Preco
+import logo from '../../../assets/images/logo.png';
 import "./Header.css";
 
 export default function Header({ timeLeft }) {
@@ -15,8 +16,11 @@ export default function Header({ timeLeft }) {
 
             {/* Seção do Header */}
             <section className="section1 pedding-top section-header transparent d-flex">
-                <div className="container transparent d-flex align-items-end">
-                    <div className="row align-items-center transparent">
+                <div className="container transparent d-flex">
+                    <div className="row transparent">
+                        <div className="transparent logo-header">
+                            <img src={logo} alt="Logo" />
+                        </div>
                         <div className="transparent">
                             <h1 className="display-5 anton-regular transparent corAmarela">
                                 ELIMINE <span className="color-white transparent">ATÉ 10KG</span> EM <span className="transparent">30 DIAS</span> COMO O MÉTODO QUE <span className="color-white transparent">REALMENTE FUNCIONA.</span>
@@ -32,17 +36,17 @@ export default function Header({ timeLeft }) {
                 </div>
             </section>
             <section className="py-5 text-center">
-                 <div className="container">
-                     <h2 className="mb-4 corPrimaria">Entenda como você pode começar a evoluir hoje:</h2>
-                     <div className="ratio ratio-16x9 youtube-video">
-                         <iframe
-                             src="https://www.youtube.com/embed/7FSCfEJR3lQ?si=kbuvWBjB0-94RK3s"
-                             title="Vídeo"
-                             allowFullScreen
-                         ></iframe>
-                     </div>
-                 </div>
-             </section>
+                <div className="container">
+                    <h2 className="mb-4 corPrimaria">Entenda como você pode começar a evoluir hoje:</h2>
+                    <div className="ratio ratio-16x9 youtube-video">
+                        <iframe
+                            src="https://www.youtube.com/embed/7FSCfEJR3lQ?si=kbuvWBjB0-94RK3s"
+                            title="Vídeo"
+                            allowFullScreen
+                        ></iframe>
+                    </div>
+                </div>
+            </section>
         </div>
     );
 };
