@@ -16,7 +16,7 @@ export default function Header({ timeLeft }) {
 
             {/* Seção do Header */}
             <section className="section1 pedding-top section-header transparent d-flex">
-                <div className="container transparent d-flex">
+                <div className="container transparent d-flex align-items-end">
                     <div className="row transparent">
                         <div className="transparent logo-header">
                             <img src={logo} alt="Logo" />

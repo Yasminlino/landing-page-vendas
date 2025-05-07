@@ -206,7 +206,7 @@ h1 {
 
 }
 
-@media (max-width: 400px) {
+@media (max-height: 820px) {
     .section-header {
         background-image: url(../../../assets/images/Imagem-capa-mobile2.png) !important;
         background-size: contain;
