@@ -15,7 +15,7 @@ export default function Header({ timeLeft }) {
             </div>
 
             {/* Seção do Header */}
-            <section className="section1 pedding-top section-header transparent d-flex">
+            <section className="section1 pedding-top section-header transparent d-flex justify-content-center">
                 <div className="container transparent d-flex align-items-end">
                     <div className="row transparent">
                         <div className="transparent logo-header">
@@ -32,18 +32,6 @@ export default function Header({ timeLeft }) {
                                 Quero Evoluir Agora
                             </a>
                         </div>
-                    </div>
-                </div>
-            </section>
-            <section className="py-5 text-center">
-                <div className="container">
-                    <h2 className="mb-4 corPrimaria">Entenda como você pode começar a evoluir hoje:</h2>
-                    <div className="ratio ratio-16x9 youtube-video">
-                        <iframe
-                            src="https://www.youtube.com/embed/7FSCfEJR3lQ?si=kbuvWBjB0-94RK3s"
-                            title="Vídeo"
-                            allowFullScreen
-                        ></iframe>
                     </div>
                 </div>
             </section>

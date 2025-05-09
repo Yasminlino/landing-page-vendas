@@ -59,6 +59,13 @@
     .custom-card {
       margin-bottom: 1.5rem; /* Espaçamento entre os cartões */
     }
+
+    .titulo1{
+      font-size: 1.8rem!important;
+    }
+    .titulo2{
+      font-size: 1.3rem!important;
+    }
   
     .custom-card .icon {
       font-size: 2.5rem; /* Reduz o tamanho do ícone */
