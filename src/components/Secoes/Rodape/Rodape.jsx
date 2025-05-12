@@ -5,7 +5,7 @@ import logo from "../../../assets/images/logo.png";
 
 export default function Footer() {
   return (
-    <footer className="text-light py-4">
+    <footer className="section1 text-light py-4">
       <div className="container">
         <div className="row align-items-center">
           {/* Coluna com texto */}

@@ -26,10 +26,12 @@ export default function Header({ timeLeft }) {
                                 ELIMINE <span className="color-white transparent">ATÉ 10KG</span> EM <span className="transparent">30 DIAS</span> COMO O MÉTODO QUE <span className="color-white transparent">REALMENTE FUNCIONA.</span>
                             </h1>
                             <p className="lead mt-3 color-white transparent texto-header">
-                                Se torne o aluno de quem já mudou o corpo e a mente de <span className='corAmarela transparent'>milhares de pessoas em projetos de emagrecimento</span> e tenha o resultado que você buscou a vida inteira nos próximos 30 dias.
+                                Você não precisa sofrer, passar fome ou viver na academia. 
+                                O Método Evolution é <span className='corAmarela transparent'>leve, estratégico e se encaixa no seu dia a dia.</span> Mesmo que você não goste de academia. Mesmo que sua rotina seja corrida. 
+                                Esse método foi feito pra você que quer emagrecer de forma definitiva.
                             </p>
-                            <a href="#precos" className="botaoPrincipal">
-                                Quero Evoluir Agora
+                            <a href="#precos" className="botaoPrincipal botaoPrincipalHeader">
+                                Quero o resultado que sempre sonhei!
                             </a>
                         </div>
                     </div>

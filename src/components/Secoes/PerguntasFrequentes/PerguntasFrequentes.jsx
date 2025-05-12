@@ -1,45 +1,58 @@
 import React from "react";
+import "./PerguntasFrequentes.css";
 
 export default function PerguntasFrequentes() {
     return (
-        <section className="py-5">
+        <section className="section1 py-5">
         <div className="container">
           <h2 className="text-center mb-5 color-white">Perguntas Frequentes</h2>
           <div className="accordion" id="faqAccordion">
            
+            {/* Pergunta 1 */}
+            <div className="accordion-item">
+              <h2 className="accordion-header" id="headingOne">
+                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                  Em quanto tempo começo a ver resultados?
+                </button>
+              </h2>
+              <div id="collapseOne" className="accordion-collapse collapse">
+                <div className="accordion-body">Muitos alunos relatam mudanças visíveis já na primeira semana, especialmente na disposição, desinchaço e motivação. Os resultados variam de acordo com sua dedicação e constância ao seguir o método.</div>
+              </div>
+            </div>
+
             {/* Pergunta 2 */}
             <div className="accordion-item">
               <h2 className="accordion-header" id="headingTwo">
                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
-                  É só para emagrecer?
+                  Não gosto de academia. Esse método é pra mim?
                 </button>
               </h2>
               <div id="collapseTwo" className="accordion-collapse collapse">
-                <div className="accordion-body">Não. Também ajuda com definição, energia e performance.</div>
+                <div className="accordion-body">Sim! O foco é te ensinar a emagrecer com um plano adaptável. O exercício é importante, mas o método funciona mesmo para quem treina em casa ou está começando do zero.</div>
               </div>
             </div>
 
-            {/* Pergunta 3 */}
+            {/* Pergunta 3*/}
             <div className="accordion-item">
-              <h2 className="accordion-header" id="headingThree">
-                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
-                  Tem cardápio pronto?
+              <h2 className="accordion-header" id="headingTree">
+                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTree">
+                  O método serve para homens e mulheres?
                 </button>
               </h2>
-              <div id="collapseThree" className="accordion-collapse collapse">
-                <div className="accordion-body">Sim. Um plano alimentar prático e adaptado à sua rotina.</div>
+              <div id="collapseTree" className="accordion-collapse collapse">
+                <div className="accordion-body">Sim, o Método Evolution já foi aplicado com sucesso em centenas de pessoas, de diferentes idades, gêneros e rotinas. Ele é adaptável e tem foco em resultados reais para pessoas reais.</div>
               </div>
             </div>
 
-            {/* Pergunta 4 */}
+            {/* Pergunta 4*/}
             <div className="accordion-item">
               <h2 className="accordion-header" id="headingFour">
                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour">
-                  Quanto tempo leva para ver resultados?
+                  Tem acompanhamento individual?
                 </button>
               </h2>
               <div id="collapseFour" className="accordion-collapse collapse">
-                <div className="accordion-body">Com o comprometimento, você pode ver resultados em 30 dias.</div>
+                <div className="accordion-body">Este produto é um programa educativo com todo o passo a passo que eu utilizei para perder 30kg. O acompanhamento personalizado está disponível em outros formatos que apresento após a compra, caso você queira dar esse próximo passo.</div>
               </div>
             </div>
 
@@ -47,11 +60,11 @@ export default function PerguntasFrequentes() {
             <div className="accordion-item">
               <h2 className="accordion-header" id="headingFive">
                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive">
-                  Preciso de equipamentos para os treinos?
+                  Já tentei de tudo e nunca consegui emagrecer. Por que esse método seria diferente?
                 </button>
               </h2>
               <div id="collapseFive" className="accordion-collapse collapse">
-                <div className="accordion-body">Não. Os treinos podem ser feitos com o peso do corpo ou com equipamentos simples, dependendo da adaptação.</div>
+                <div className="accordion-body">Porque ele não é uma fórmula mágica, e sim um processo validado na prática. Você vai aprender a construir resultados reais, com estratégia, clareza e um passo a passo que já funcionou para muitas pessoas que também achavam que não conseguiriam.</div>
               </div>
             </div>
 
@@ -59,11 +72,11 @@ export default function PerguntasFrequentes() {
             <div className="accordion-item">
               <h2 className="accordion-header" id="headingSix">
                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix">
-                  O que acontece após o término do programa?
+                  Eu tenho pouco tempo por dia. Ainda assim consigo aplicar o método?
                 </button>
               </h2>
               <div id="collapseSix" className="accordion-collapse collapse">
-                <div className="accordion-body">Existem opções de acompanhamento contínuo para manter os resultados conquistados e ajustar conforme necessário.</div>
+                <div className="accordion-body">Sim. O método é feito para quem tem uma rotina corrida. Você vai aprender como encaixar cada etapa dentro da sua realidade, sem precisar viver em função de treino ou alimentação.</div>
               </div>
             </div>
 
@@ -71,11 +84,11 @@ export default function PerguntasFrequentes() {
             <div className="accordion-item">
               <h2 className="accordion-header" id="headingSeven">
                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven">
-                  O programa inclui acompanhamento ou suporte?
+                  Como o conteúdo do curso é entregue?
                 </button>
               </h2>
               <div id="collapseSeven" className="accordion-collapse collapse">
-                <div className="accordion-body">Sim. O programa inclui acompanhamento personalizado e suporte online para tirar dúvidas.</div>
+                <div className="accordion-body">Assim que a compra for aprovada, você recebe um e-mail com o acesso imediato à plataforma, onde poderá assistir às aulas e acessar todos os materiais pelo celular ou computador, no seu tempo.</div>
               </div>
             </div>
 
@@ -83,11 +96,35 @@ export default function PerguntasFrequentes() {
             <div className="accordion-item">
               <h2 className="accordion-header" id="headingEight">
                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight">
-                  Qual o custo do programa?
+                  Por quanto tempo terei acesso ao conteúdo?
                 </button>
               </h2>
               <div id="collapseEight" className="accordion-collapse collapse">
-                <div className="accordion-body">O custo do programa depende do plano escolhido, mas oferecemos opções de pagamento acessíveis e com ótimo custo-benefício.</div>
+                <div className="accordion-body">Você terá acesso por 3 meses, podendo rever as aulas quantas vezes quiser, no seu ritmo</div>
+              </div>
+            </div>
+
+            {/* Pergunta 9 */}
+            <div className="accordion-item">
+              <h2 className="accordion-header" id="headingNine">
+                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine">
+                  Posso fazer mesmo sem nunca ter treinado ou feito dieta antes?
+                </button>
+              </h2>
+              <div id="collapseNine" className="accordion-collapse collapse">
+                <div className="accordion-body">Sim! O método foi criado justamente para quem não sabe por onde começar e precisa de uma orientação clara, segura e fácil de aplicar.</div>
+              </div>
+            </div>
+
+            {/* Pergunta 10 */}
+            <div className="accordion-item">
+              <h2 className="accordion-header" id="headingTen">
+                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen">
+                  O método serve para quem já emagreceu e quer manter os resultados?
+                </button>
+              </h2>
+              <div id="collapseTen" className="accordion-collapse collapse">
+                <div className="accordion-body">Serve perfeitamente! Muitos alunos usam o conteúdo para evitar o efeito sanfona e manter o equilíbrio sem voltar ao ponto de partida.</div>
               </div>
             </div>
           </div>

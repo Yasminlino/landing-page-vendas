@@ -20,6 +20,7 @@ export default function Preco({ timeLeft }) {
             ],
             corCabecalho: "bg-warning",
             corBotao: "btn-warning",
+            link: "https://sun.eduzz.com/1W3ZOV7PW2?cupom=METHODBASIC"
         },
         {
             nome: "Plano Intermediário",
@@ -37,12 +38,13 @@ export default function Preco({ timeLeft }) {
             ],
             corCabecalho: "bg-primary",
             corBotao: "btn-dark",
+            link: "https://sun.eduzz.com/8WPAPQRQWP?cupom=METHODINTERMEDIARY"
         },
         {
             nome: "Plano Premium",
             precoOriginal: "R$ 497,90",
             precoPromocional: "R$ 197,90",
-            descricao: "Acesso ao método completo por 6 meses.",
+            descricao: "Acesso ao método completo por 3 meses.",
             itens: [
                 { icone: <FaCheck className="corLaranja me-2" />, texto: "Curso em vídeos" },
                 { icone: <FaCheck className="corLaranja me-2" />, texto: "Planilha de cálculo metabólico" },
@@ -54,6 +56,7 @@ export default function Preco({ timeLeft }) {
             ],
             corCabecalho: "bg-success",
             corBotao: "btn-success",
+            link: "https://sun.eduzz.com/G961JNG5W1?cupom=METHODPREMIUM"
         }
     ];
 
@@ -101,7 +104,7 @@ export default function Preco({ timeLeft }) {
                                     </ul>
 
                                     <div className="mt-auto">
-                                        <a href="#" className={`btn w-100 mt-3 ${plano.corBotao} fw-bold`}>
+                                        <a href={plano.link} className={`btn w-100 mt-3 ${plano.corBotao} fw-bold`}>
                                             Quero este plano
                                         </a>
                                     </div>

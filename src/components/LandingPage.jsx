@@ -9,11 +9,12 @@ import { SecaoFabricio } from './Secoes/FabricioDeSouza/SecaoFabricio';
 import Footer from './Secoes/Rodape/Rodape';
 import PerguntasFrequentes from './Secoes/PerguntasFrequentes/PerguntasFrequentes';
 import Preco from './Secoes/Preco/Preco';
+import { FaWhatsapp } from 'react-icons/fa';
 import './LandingPage.css';
 
 const LandingPage = () => {
-  const promoEndDate = new Date('2025-05-03');
-  promoEndDate.setDate(promoEndDate.getDate() + 30);
+  const promoEndDate = new Date('2025-05-13');
+  promoEndDate.setDate(promoEndDate.getDate() + 10);
 
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
@@ -65,6 +66,14 @@ const LandingPage = () => {
       <PerguntasFrequentes />
       <Preco timeLeft={timeLeft} />
       <Footer />
+      <a
+        href="https://wa.me/55SEUNUMEROAQUI"
+        className="iconeWhatsapp"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FaWhatsapp className="transparent" size={40} />
+      </a>
     </div>
   );
 };

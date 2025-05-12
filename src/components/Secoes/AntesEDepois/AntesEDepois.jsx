@@ -12,11 +12,14 @@ import img9 from "../../../assets/images/carrossel/i.jpg";
 import img10 from "../../../assets/images/carrossel/j.jpg";
 import img11 from "../../../assets/images/carrossel/k.jpg";
 import img12 from "../../../assets/images/carrossel/l.jpg";
+import img13 from "../../../assets/images/carrossel/m.jpg";
+import img14 from "../../../assets/images/carrossel/n.jpg";
+import img15 from "../../../assets/images/carrossel/o.jpg";
 import "./AntesEDepois.css";
 
 const imagens = [
   img1, img2, img3, img4, img5, img6,
-  img7, img8, img9, img10, img11, img12
+  img7, img8, img9, img10, img11, img12, img13, img14, img15
 ];
 
 export default function AntesEDepois() {

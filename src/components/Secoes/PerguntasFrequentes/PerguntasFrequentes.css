@@ -1,0 +1,12 @@
+.accordion-body{
+    background-color: #fffffff1;
+}
+
+.accordion-item> h2{
+    border-radius: 1rem;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #ebbd58!important;
+    color: #000000!important;
+}

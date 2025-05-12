@@ -4,7 +4,7 @@ import ImagemFabricio from "../../../assets/images/Fabricio-de-Souza.png";
 
 export const SecaoFabricio = () => {
   return (
-    <section className="py-5 corPrimaria text-white section-Fabricio">
+    <section className="section1 py-5 corPrimaria text-white section-Fabricio">
       <div className="container transparent">
         <div className="row align-items-center transparent">
            {/* Imagem */}

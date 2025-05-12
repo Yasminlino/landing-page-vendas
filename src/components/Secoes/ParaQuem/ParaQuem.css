@@ -1,16 +1,14 @@
 .itemBranca {
-    color: #fff;
+    padding: 1rem!important;
+    color: #070707;
     font-size: 1.1rem;
     padding: 1rem 1.5rem;
     margin-bottom: 1rem;
     border-radius: 8px;
     transition: background-color 0.3s ease, transform 0.3s ease;
+    background-color: #ffffffad;
 }
 
-.itemBranca:hover {
-    background-color: #ffffffad;
-    transform: scale(1.02);
-}
 
 .list-group-dark {
     padding: 0;
