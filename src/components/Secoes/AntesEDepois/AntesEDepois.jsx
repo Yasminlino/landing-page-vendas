@@ -1,20 +1,20 @@
 import React, { useRef, useEffect } from "react";
 import { IoChevronBack, IoChevronForward } from "react-icons/io5";
-import img1 from "../../../assets/images/carrossel/a.jpg";
-import img2 from "../../../assets/images/carrossel/b.jpg";
-import img3 from "../../../assets/images/carrossel/c.jpg";
-import img4 from "../../../assets/images/carrossel/d.jpg";
-import img5 from "../../../assets/images/carrossel/e.jpg";
-import img6 from "../../../assets/images/carrossel/f.jpg";
-import img7 from "../../../assets/images/carrossel/g.jpg";
-import img8 from "../../../assets/images/carrossel/h.jpg";
-import img9 from "../../../assets/images/carrossel/i.jpg";
-import img10 from "../../../assets/images/carrossel/j.jpg";
-import img11 from "../../../assets/images/carrossel/k.jpg";
-import img12 from "../../../assets/images/carrossel/l.jpg";
-import img13 from "../../../assets/images/carrossel/m.jpg";
-import img14 from "../../../assets/images/carrossel/n.jpg";
-import img15 from "../../../assets/images/carrossel/o.jpg";
+import img1 from "../../../assets/images/carrossel/a.webp";
+import img2 from "../../../assets/images/carrossel/b.webp";
+import img3 from "../../../assets/images/carrossel/c.webp";
+import img4 from "../../../assets/images/carrossel/d.webp";
+import img5 from "../../../assets/images/carrossel/e.webp";
+import img6 from "../../../assets/images/carrossel/f.webp";
+import img7 from "../../../assets/images/carrossel/g.webp";
+import img8 from "../../../assets/images/carrossel/h.webp";
+import img9 from "../../../assets/images/carrossel/i.webp";
+import img10 from "../../../assets/images/carrossel/j.webp";
+import img11 from "../../../assets/images/carrossel/k.webp";
+import img12 from "../../../assets/images/carrossel/l.webp";
+import img13 from "../../../assets/images/carrossel/m.webp";
+import img14 from "../../../assets/images/carrossel/n.webp";
+import img15 from "../../../assets/images/carrossel/o.webp";
 import "./AntesEDepois.css";
 
 const imagens = [

@@ -40,7 +40,7 @@ h1 {
 }
 
 .section-header {
-    background-image: url(../../../assets/images/Imagem-capa-desktop.png);
+    background-image: url(../../../assets/images/Imagem-capa-desktop.webp);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -81,7 +81,7 @@ h1 {
     }
 
     .section-header {
-        background-image: url(../../../assets/images/Imagem-capa-mobile.png);
+        background-image: url(../../../assets/images/Imagem-capa-mobile.webp);
         background-size: contain;
         background-position: top;
         height: 90vh;
@@ -126,7 +126,7 @@ h1 {
 
 @media (max-width: 726px) {
     .section-header {
-        background-image: url(../../../assets/images/Imagem-capa-mobile.png);
+        background-image: url(../../../assets/images/Imagem-capa-mobile.webp);
         background-size: contain;
         background-position: top;
         height: 90vh;
@@ -155,7 +155,7 @@ h1 {
     }
 
     .section-header {
-        background-image: url(../../../assets/images/Imagem-capa-mobile2.png) !important;
+        background-image: url(../../../assets/images/Imagem-capa-mobile2.webp) !important;
         background-size: contain;
         background-position: top;
         height: 70vh;
@@ -201,7 +201,7 @@ h1 {
     }
 
     .section-header {
-        background-image: url(../../../assets/images/Imagem-capa-mobile2.png) !important;
+        background-image: url(../../../assets/images/Imagem-capa-mobile2.webp) !important;
         background-size: contain;
         background-position: top;
         height: 68vh;
@@ -228,7 +228,7 @@ h1 {
 
 @media (max-height: 820px) {
     .section-header {
-        background-image: url(../../../assets/images/Imagem-capa-mobile2.png) !important;
+        background-image: url(../../../assets/images/Imagem-capa-mobile2.webp) !important;
         background-size: contain;
         background-position: top;
         height: 90vh;

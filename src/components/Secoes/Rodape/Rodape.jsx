@@ -1,7 +1,7 @@
 import React from "react";
 import { FaInstagram, FaFacebookF, FaYoutube, FaWhatsapp } from "react-icons/fa";
 import "./Rodape.css";
-import logo from "../../../assets/images/logo.png";
+import logo from "../../../assets/images/logo.webp";
 
 export default function Footer() {
   return (

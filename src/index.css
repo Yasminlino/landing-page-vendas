@@ -23,3 +23,48 @@ code {
   border-radius: 50%;
   object-fit: cover;
 }
+
+@font-face {
+  font-family: 'Anton';
+  src: url('/fonts/anton.woff2') format('woff2'),
+       url('/fonts/anton.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/roboto.woff2') format('woff2'),
+       url('/fonts/roboto.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/roboto-bold.woff2') format('woff2'),
+       url('/fonts/roboto-bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/poppins.woff2') format('woff2'),
+       url('/fonts/poppins.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bitcrusher';
+  src: url('/fonts/bitcrusher.woff2') format('woff2'),
+       url('/fonts/bitcrusher.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import '../FabricioDeSouza/SecaoFabricio.css';
-import ImagemFabricio from "../../../assets/images/Fabricio-de-Souza.png";
+import ImagemFabricio from "../../../assets/images/Fabricio-de-Souza.webp";
 
 export const SecaoFabricio = () => {
   return (

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Preco from '../Preco/Preco'; // Importe o componente Preco
-import logo from '../../../assets/images/logo.png';
+import logo from '../../../assets/images/logo.webp';
 import "./Header.css";
 
 export default function Header({ timeLeft }) {
