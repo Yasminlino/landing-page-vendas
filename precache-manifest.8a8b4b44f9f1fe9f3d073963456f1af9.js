@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f7f064341ceeeb0120f40c38c218abb3",
+    "revision": "d6aa1738f2aba8779c69a1c771aa7f25",
     "url": "/landing-page-vendas/index.html"
   },
   {
-    "revision": "8c11514328505f126317",
+    "revision": "974527cadc21fc302b0e",
     "url": "/landing-page-vendas/static/css/2.7446b4c7.chunk.css"
   },
   {
-    "revision": "9480d9f553f3c625da1e",
-    "url": "/landing-page-vendas/static/css/main.282ec7ea.chunk.css"
+    "revision": "df06e68384378a64d353",
+    "url": "/landing-page-vendas/static/css/main.931f5135.chunk.css"
   },
   {
-    "revision": "8c11514328505f126317",
-    "url": "/landing-page-vendas/static/js/2.d70bbdea.chunk.js"
+    "revision": "974527cadc21fc302b0e",
+    "url": "/landing-page-vendas/static/js/2.ecb87e88.chunk.js"
   },
   {
     "revision": "0ae889b0d2cac9dfef788b04a9f4e825",
-    "url": "/landing-page-vendas/static/js/2.d70bbdea.chunk.js.LICENSE.txt"
+    "url": "/landing-page-vendas/static/js/2.ecb87e88.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6ed0befad8002e12b4b0",
-    "url": "/landing-page-vendas/static/js/3.93b7bac0.chunk.js"
+    "revision": "97a217dc7f96d52e083c",
+    "url": "/landing-page-vendas/static/js/3.db82712b.chunk.js"
   },
   {
-    "revision": "9480d9f553f3c625da1e",
-    "url": "/landing-page-vendas/static/js/main.8e3abcd1.chunk.js"
+    "revision": "df06e68384378a64d353",
+    "url": "/landing-page-vendas/static/js/main.d861e16b.chunk.js"
   },
   {
-    "revision": "e60def0de89e36ed9644",
-    "url": "/landing-page-vendas/static/js/runtime-main.b3b856b6.js"
+    "revision": "43149b4d058165682970",
+    "url": "/landing-page-vendas/static/js/runtime-main.4afecf5f.js"
   },
   {
     "revision": "d75f4f6b5907ae4470006f85352a6b0b",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2099c20a042e3dde79c480e78877b2b4",
     "url": "/landing-page-vendas/static/media/Background2.2099c20a.webp"
+  },
+  {
+    "revision": "acf7ee0bb9cfaa54be5daaff7907c097",
+    "url": "/landing-page-vendas/static/media/Capa-video.acf7ee0b.webp"
   },
   {
     "revision": "4d78e1ed220f2a7332efaeef22ed75f5",
