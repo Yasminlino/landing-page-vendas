@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import { FaYoutube} from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import imgCapa from "../../../assets/images/Capa-video.webp"
 
 export default function YoutubeLazyEmbed() {
   const [isIframeLoaded, setIsIframeLoaded] = useState(false);
-  const videoId = "7FSCfEJR3lQ";
+  const videoId = "t0KdsgT-DG4";
 
   const loadIframe = () => {
     setIsIframeLoaded(true);
@@ -17,7 +18,7 @@ export default function YoutubeLazyEmbed() {
             className="youtube-placeholder"
             onClick={loadIframe}
             style={{
-              backgroundImage: `url(https://img.youtube.com/vi/${videoId}/hqdefault.jpg)`,
+              backgroundImage: `url(${imgCapa})`,
               backgroundSize: 'cover',
               backgroundPosition: 'center',
               cursor: 'pointer',
@@ -25,6 +26,7 @@ export default function YoutubeLazyEmbed() {
               height: '100%',
             }}
           >
+
             <button
               className="play-button"
               aria-label="Play video"
@@ -40,7 +42,7 @@ export default function YoutubeLazyEmbed() {
                 padding: '12px',
               }}
             >
-              <FaYoutube style={{color: 'red'}}/>
+              <FaYoutube style={{ color: '#c90707' }} />
             </button>
           </div>
         ) : (

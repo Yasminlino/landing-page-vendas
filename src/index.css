@@ -3,7 +3,7 @@
   --cor-primaria: #ff914d;
 }
 
-h1, h2, h3, h4, h5, h6, p, a, span, strong, div, li, ul, ol, svg, img{
+h1, h2, h3, h4, h5, h6, p, a, span, strong, div, li, ul, ol, svg, img, button{
   background-color: transparent;
 }
 

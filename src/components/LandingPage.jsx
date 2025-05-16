@@ -66,14 +66,6 @@ const LandingPage = () => {
       <PerguntasFrequentes />
       <Preco timeLeft={timeLeft} />
       <Footer />
-      <a
-        href="https://wa.me/55SEUNUMEROAQUI"
-        className="iconeWhatsapp"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <FaWhatsapp size={40} />
-      </a>
     </div>
   );
 };
