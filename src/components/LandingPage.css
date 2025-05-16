@@ -33,7 +33,7 @@
   cursor: pointer;
 }
 
-.iconeWhatsapp .transparent {
+.iconeWhatsapp{
   color: white;
 }
 
@@ -73,10 +73,6 @@
 
 .section1 {
     border-bottom: 1px solid var(--cor-primaria);
-}
-
-.transparent {
-    background-color: rgba(0, 0, 0, 0) !important;
 }
 
 .anton-regular {

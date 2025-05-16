@@ -38,9 +38,9 @@ export default function Depoimentos() {
 
   return (
     <section className="py-5 position-relative">
-      <div className="container transparent">
-        <div className="row justify-content-center mb-4 transparent">
-          <div className="col-lg-8 text-center transparent">
+      <div className="container">
+        <div className="row justify-content-center mb-4">
+          <div className="col-lg-8 text-center">
             <h2 className="display-5 mb-3 color-white">Depoimentos Reais, Resultados Reais</h2>
             <p className="lead color-white">Não são promessas vazias. São mensagens reais de quem já começou sua jornada de transformação e viu a balança, a autoestima e a vida mudarem de verdade.</p>
           </div>
@@ -48,7 +48,7 @@ export default function Depoimentos() {
       </div>
       <div className="position-relative">
         <button onClick={handlePrev} className="carousel-btn prev-btn">
-          <IoChevronBack size={28} className="transparent" color="#333" />
+          <IoChevronBack size={28} color="#333" />
         </button>
         <div
           ref={scrollRef}
@@ -77,7 +77,7 @@ export default function Depoimentos() {
           ))}
         </div>
         <button onClick={handleNext} className="carousel-btn next-btn">
-          <IoChevronForward size={28} className="transparent" color="#333" />
+          <IoChevronForward size={28} color="#333" />
         </button>
       </div>
       <div className="d-flex justify-content-center mt-5 text-centerb btn-depoimento">

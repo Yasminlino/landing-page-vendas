@@ -72,7 +72,7 @@ const LandingPage = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FaWhatsapp className="transparent" size={40} />
+        <FaWhatsapp size={40} />
       </a>
     </div>
   );

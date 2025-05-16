@@ -64,7 +64,6 @@ h1 {
 }
 
 .logo-header>img {
-    background-color: transparent;
     width: 8rem;
     height: 7rem;
 }
@@ -75,7 +74,6 @@ h1 {
     }
 
     .logo-header>img {
-        background-color: transparent;
         width: 7rem;
         height: 6rem;
     }
@@ -139,7 +137,6 @@ h1 {
     }
 
     .logo-header>img {
-        background-color: transparent;
         width: 6rem;
         height: 5rem;
     }
@@ -168,7 +165,6 @@ h1 {
     }
 
     .logo-header>img {
-        background-color: transparent;
         width: 5rem;
         height: 4rem;
     }

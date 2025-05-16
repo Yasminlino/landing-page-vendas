@@ -52,16 +52,16 @@ export default function AntesEDepois() {
 
   return (
     <section className="py-5 position-relative">
-      <div className="container transparent">
-        <div className="row justify-content-center mb-4 transparent">
-          <div className="col-lg-8 text-center transparent">
+      <div className="container">
+        <div className="row justify-content-center mb-4">
+          <div className="col-lg-8 text-center">
             <h2 className="display-5 mb-3 color-white">Veja o antes e depois de alguns de nossos alunos:</h2>
           </div>
         </div>
       </div>
       <div className="position-relative">
         <button onClick={handlePrev} className="carousel-btn prev-btn">
-          <IoChevronBack size={28} className="transparent" color="#333" />
+          <IoChevronBack size={28} color="#333" />
         </button>
         <div
           ref={scrollRef}
@@ -90,7 +90,7 @@ export default function AntesEDepois() {
           ))}
         </div>
         <button onClick={handleNext} className="carousel-btn next-btn">
-          <IoChevronForward size={28} className="transparent" color="#333" />
+          <IoChevronForward size={28} color="#333" />
         </button>
       </div>
     </section>

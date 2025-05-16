@@ -6,7 +6,8 @@ import {
 } from "react-icons/io5";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import "./EvolutionMethod.css"; // Adicionaremos o CSS customizado aqui
+import "./EvolutionMethod.css";
+import YoutubeLazyEmbed from "../Videos/YoutubeLazyEmbed";
 
 export default function Method() {
   useEffect(() => {
@@ -14,7 +15,7 @@ export default function Method() {
   }, []);
 
   return (
-    <section className="py-5 method-section section1 text-white">
+    <section className="method-section section1 text-white">
       <div className="container">
 
         {/* Título e descrição */}
@@ -27,20 +28,10 @@ export default function Method() {
               Descubra no vídeo abaixo como o Método Evolution já transformou a vida de centenas de pessoas como você, que já estavam cansadas de tentar e falhar.
             </p>
             <div className="container">
-              <div className="ratio ratio-16x9 youtube-video">
-                <iframe
-                  src="https://www.youtube.com/embed/7FSCfEJR3lQ?si=kbuvWBjB0-94RK3s"
-                  title="Vídeo"
-                  allowFullScreen
-                ></iframe>
-              </div>
-              <p className="caption text-center mt-3">
-                Criado por Fabrício de Sousa, ex-gordo, atleta e mentor de centenas de pessoas com resultados comprovados.
-              </p>
+              <YoutubeLazyEmbed />              
             </div>
           </div>
         </div>
-
 
         {/* Subtítulo */}
         <div className="row">
@@ -55,7 +46,7 @@ export default function Method() {
         <div className="row text-center">
           <div className="col-12 col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
             <div className="card custom-card h-100">
-              <IoCompassOutline  className="icon transparent" />
+              <IoCompassOutline className="icon" />
               <h5 className="card-title">Clareza de Propósito</h5>
               <p className="card-text">
                 Você precisa descobrir o seu porquê.
@@ -68,7 +59,7 @@ export default function Method() {
 
           <div className="col-12 col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
             <div className="card custom-card h-100">
-              <IoRestaurantOutline className="icon transparent" />
+              <IoRestaurantOutline className="icon" />
               <h5 className="card-title">Estratégia Real</h5>
               <p className="card-text">
                 Eu vou te mostrar exatamente o que fazer, o que comer.
@@ -81,7 +72,7 @@ export default function Method() {
 
           <div className="col-12 col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
             <div className="card custom-card h-100">
-              <IoBulbOutline className="icon transparent" />
+              <IoBulbOutline className="icon" />
               <h5 className="card-title">Força Mental</h5>
               <p className="card-text">
                 Reprograme sua mente e pare de se sabotar.
@@ -93,9 +84,9 @@ export default function Method() {
           </div>
 
         </div>
-        <div className="row text-center transparent">
-          <div className="mx-auto transparent" data-aos="fade-up">
-            <p className="lead text-light transparent">
+        <div className="row text-center">
+          <div className="mx-auto" data-aos="fade-up">
+            <p className="lead text-light">
               Este não é só um curso, é a maneira uma simples e definitiva para transformar o seu corpo e sua mente de forma definitiva.
             </p>
           </div>
@@ -106,6 +97,6 @@ export default function Method() {
           </a>
         </div>
       </div>
-    </section>
+    </section >
   );
 }

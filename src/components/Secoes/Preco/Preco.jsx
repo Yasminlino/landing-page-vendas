@@ -79,7 +79,7 @@ export default function Preco({ timeLeft }) {
                         <div className="col-md-4 mb-4" key={index}>
                             <div className="card h-100 shadow-sm d-flex flex-column card-preco">
                                 <div className={`card-header ${plano.corCabecalho}`}>
-                                    <h3 className="mb-0 transparent">{plano.nome}</h3>
+                                    <h3 className="mb-0">{plano.nome}</h3>
                                 </div>
                                 <div className="card-body d-flex flex-column">
                                     {isPromoActive && (
