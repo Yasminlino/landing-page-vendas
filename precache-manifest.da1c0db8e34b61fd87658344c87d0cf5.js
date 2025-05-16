@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2effd5710e160df8f8d0b845a4892e8f",
+    "revision": "f7f064341ceeeb0120f40c38c218abb3",
     "url": "/landing-page-vendas/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/landing-page-vendas/static/css/2.7446b4c7.chunk.css"
   },
   {
-    "revision": "c023dec256c96172b9e5",
-    "url": "/landing-page-vendas/static/css/main.334fe39b.chunk.css"
+    "revision": "9480d9f553f3c625da1e",
+    "url": "/landing-page-vendas/static/css/main.282ec7ea.chunk.css"
   },
   {
     "revision": "8c11514328505f126317",
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/landing-page-vendas/static/js/3.93b7bac0.chunk.js"
   },
   {
-    "revision": "c023dec256c96172b9e5",
-    "url": "/landing-page-vendas/static/js/main.332357e5.chunk.js"
+    "revision": "9480d9f553f3c625da1e",
+    "url": "/landing-page-vendas/static/js/main.8e3abcd1.chunk.js"
   },
   {
     "revision": "e60def0de89e36ed9644",
