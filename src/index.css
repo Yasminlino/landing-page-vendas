@@ -85,4 +85,5 @@ code {
   font-style: normal;
   font-weight: 700;
   src: local('Bitcrusher'), url('https://fonts.cdnfonts.com/s/19003/bitcrusher condensed bd.woff') format('woff');
+  font-display: swap;
 }

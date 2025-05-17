@@ -1,5 +1,5 @@
 .sectionPreco {
-    background-color: #000;  /* fundo preto */
+    background-color: #000;
     padding: 60px 20px;
 }
 
@@ -8,8 +8,8 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.card{
-    --bs-card-bg: black!important;
+.card {
+    --bs-card-bg: #111 !important;
 }
 
 .card-preco:hover {
@@ -19,30 +19,31 @@
 
 .card-header > h3 {
     font-size: 1.6rem;
-    color: #fff;
+    color: #ffffff;
 }
 
 .card-header {
-    border-block-start: 1px solid white;
-    border-left: 1px solid white;
-    border-right: 1px solid white;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
 }
 
-.text-line{
-    color: rgba(139, 37, 37, 0.699)!important;
+.text-line {
+    color: #aa3b3b !important;
 }
+
 .card-body > h3 {
     font-size: 2rem;
     color: #f2aa4c;
 }
 
 .card-body > p {
-    color: #ddd; 
-    margin: 1rem!important;
+    color: #eaeaea;
+    margin: 1rem !important;
 }
 
 .card-body ul {
-    color: #ccc;  /* lista em cinza claro */
+    color: #dddddd;
     padding-left: 0;
 }
 
@@ -50,10 +51,10 @@
     color: inherit;
 }
 
-.card-body{
-    border-bottom: 1px solid white;
-    border-left: 1px solid white;
-    border-right: 1px solid white;
+.card-body {
+    border-bottom: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
     border-radius: 0 0 15px 15px;
 }
 
@@ -65,34 +66,34 @@
 }
 
 .btn-warning {
-    background-color: #f2aa4c!important;
-    color: #000;
+    background-color: #f2aa4c !important;
+    color: #111;
     border: none;
 }
 
 .btn-warning:hover {
-    background-color: #d18e32!important;
-    color: #000;
+    background-color: #d18e32 !important;
+    color: #111;
 }
 
 .btn-dark {
-    background-color: #333!important;
+    background-color: #444 !important;
     color: #fff;
     border: none;
 }
 
 .btn-dark:hover {
-    background-color: #555!important;
+    background-color: #666 !important;
 }
 
 .btn-success {
-    background-color: #28a745!important;
+    background-color: #28a745 !important;
     color: #fff;
     border: none;
 }
 
 .btn-success:hover {
-    background-color: #218838!important;
+    background-color: #218838 !important;
 }
 
 .corLaranja {
@@ -101,6 +102,10 @@
 
 .icone-vermelho {
     color: #e63946 !important;
+}
+
+.color-white {
+    color: #ffffff;
 }
 
 @media (max-width: 900px) {

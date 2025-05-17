@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="row align-items-center">
           {/* Coluna com texto */}
           <div className="col-md-7 mb-4 mb-md-0">
-            <h5>Evolution House Sports</h5>
+            <h4>Evolution House Sports</h4>
             <p className="text-transparent mb-3">
               Transforme sua vida com o método que já ajudou milhares de pessoas a emagrecer com saúde.
             </p>
@@ -20,7 +20,13 @@ export default function Footer() {
 
           {/* Coluna com logo */}
           <div className="col-md-5 text-md-end text-center">
-            <img src={logo} alt="Logo Evolution House Sports" className="logo-footer" />
+            <img
+              alt="Logo Evolution House Sports"
+              className="logo-footer"
+              src={`${process.env.PUBLIC_URL}/static/media/logo.75ec5ba2.webp`}
+            />
+
+
           </div>
         </div>
 
