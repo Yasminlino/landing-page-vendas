@@ -44,6 +44,7 @@
     ]
   },
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^7.0.2",
     "gh-pages": "^6.3.0"
   }
 }
