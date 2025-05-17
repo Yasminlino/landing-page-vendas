@@ -56,9 +56,10 @@ h1 {
 }
 
 .logo-header {
+    width: 8rem;
+    height: 7rem;
     display: flex !important;
     align-items: flex-end !important;
-    padding-bottom: 1rem;
 }
 
 .logo-header img {
@@ -69,7 +70,10 @@ h1 {
 
 /* Garante altura mínima para evitar reflow visual */
 .header-row-fixa {
-    min-height: 400px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 /* ===== MEDIA QUERIES ===== */
@@ -85,7 +89,6 @@ h1 {
     }
 
     .section-header {
-        /* background-image: url('/assets/images/Imagem-capa-mobile.webp'); */
         background-size: cover;
         background-position: top;
     }
@@ -97,7 +100,6 @@ h1 {
 
 @media (max-width: 726px) {
     .section-header {
-        /* background-image: url('/assets/images/Imagem-capa-mobile.webp'); */
         height: 90vh;
     }
 
@@ -120,7 +122,6 @@ h1 {
     }
 
     .section-header {
-        /* background-image: url('/assets/images/Imagem-capa-mobile2.webp') !important; */
         height: 70vh;
     }
 
