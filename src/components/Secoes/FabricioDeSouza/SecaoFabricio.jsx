@@ -11,7 +11,7 @@ export const SecaoFabricio = () => {
             <img
               className="img-fabricio"
               alt="Fabrício de Sousa"
-              src="/landing-page-vendas/static/media/Fabricio-de-Souza.4d78e1ed.webp"
+              src={`${process.env.PUBLIC_URL}/static/media/Fabricio-de-Souza.webp`}
               width="300"
               height="400"
               style={{ objectFit: "cover" }}

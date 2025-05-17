@@ -1,10 +1,9 @@
-/* Geral */
 .section1 {
     padding: 3rem 1rem;
 }
 
 h1 {
-    font-family: 'Bitcrusher', monospace!important;
+    font-family: 'Bitcrusher', monospace !important;
     font-size: 4rem !important;
 }
 
@@ -40,9 +39,9 @@ h1 {
 }
 
 .section-header {
-    background-image: url(../../../assets/images/Imagem-capa-desktop.webp);
-    background-size: contain;
-    background-position: center;
+    background-image: url('/static/media/Imagem-capa-desktop.webp');
+    background-size: cover;
+    background-position: top;
     background-repeat: no-repeat;
     color: black;
     height: 90vh;
@@ -68,6 +67,8 @@ h1 {
     height: 7rem;
 }
 
+/* ======= MEDIA QUERIES ======= */
+
 @media (max-width: 1000px) {
     h1 {
         font-size: 3rem !important;
@@ -79,61 +80,21 @@ h1 {
     }
 
     .section-header {
-        background-image: url(../../../assets/images/Imagem-capa-mobile.webp);
-        background-size: contain;
-        background-position: top;
-        height: 90vh;
+        background-image: url('/static/media/Imagem-capa-mobile.webp');
     }
 
     .section-header>div {
-        margin-right: 1rem;
         width: 80%;
-        margin: 0;
     }
-
-    .logo-container,
-    .image-container {
-        text-align: center;
-        margin: 0 auto;
-    }
-
-    .logo-img {
-        width: 100%;
-        margin-bottom: 1rem;
-    }
-
-    .imgPrincipal {
-        width: 100%;
-        margin-top: 1rem;
-    }
-
-    .row {
-        justify-content: center;
-    }
-
-    .pedding-top {
-        padding-top: 0 !important;
-    }
-
-    .logo-img,
-    .imgPrincipal {
-        display: inline-block;
-    }
-
 }
 
 @media (max-width: 726px) {
     .section-header {
-        background-image: url(../../../assets/images/Imagem-capa-mobile.webp);
-        background-size: contain;
-        background-position: top;
-        height: 90vh;
+        background-image: url('/static/media/Imagem-capa-mobile.webp');
     }
 
     .section-header>div {
-        margin-right: 1rem;
         width: 95%;
-        margin: 0;
     }
 
     .logo-header>img {
@@ -152,16 +113,8 @@ h1 {
     }
 
     .section-header {
-        background-image: url(../../../assets/images/Imagem-capa-mobile2.webp) !important;
-        background-size: contain;
-        background-position: top;
+        background-image: url('/static/media/Imagem-capa-mobile2.webp');
         height: 70vh;
-    }
-
-    .section-header>div {
-        margin-right: 1rem;
-        width: 95%;
-        margin: 0;
     }
 
     .logo-header>img {
@@ -171,11 +124,9 @@ h1 {
 
     .botaoPrincipalHeader {
         font-size: 0.85rem !important;
-        padding-left: 8px!important;
-        padding-right: 8px!important;
-        letter-spacing: normal;
+        padding-left: 8px !important;
+        padding-right: 8px !important;
     }
-
 }
 
 @media (max-width: 426px) {
@@ -197,16 +148,8 @@ h1 {
     }
 
     .section-header {
-        background-image: url(../../../assets/images/Imagem-capa-mobile2.webp) !important;
-        background-size: contain;
-        background-position: top;
+        background-image: url('/static/media/Imagem-capa-mobile2.webp');
         height: 68vh;
-    }
-
-    .section-header>div {
-        margin-right: 1rem;
-        width: 95%;
-        margin: 0;
     }
 
     a {
@@ -215,18 +158,13 @@ h1 {
 
     .botaoPrincipalHeader {
         font-size: 0.8rem !important;
-        padding-left: 10px!important;
-        padding-right: 10px!important;
-        letter-spacing: normal;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
     }
-
 }
 
 @media (max-height: 820px) {
     .section-header {
-        background-image: url(../../../assets/images/Imagem-capa-mobile2.webp) !important;
-        background-size: contain;
-        background-position: top;
         height: 90vh;
     }
 }

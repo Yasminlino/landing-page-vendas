@@ -7,8 +7,11 @@ export default function Header({ timeLeft }) {
   return (
     <div>
       <Helmet>
-        <link rel="preload" as="image" href="/assets/images/Imagem-capa-desktop.webp" />
+        <link rel="preload" as="image" href={`${process.env.PUBLIC_URL}/static/media/Imagem-capa-desktop.webp`}/>
+        <link rel="preload" as="image" href={`${process.env.PUBLIC_URL}/static/media/Imagem-capa-mobile.webp`} />
+        <link rel="preload" as="image" href={`${process.env.PUBLIC_URL}/static/media/Imagem-capa-mobile2.webp`} />
       </Helmet>
+
       <div className="alerta-topo">
         <span role="img" aria-label="Relógio">⏰</span> Oferta por tempo limitado: <strong>Garanta seu acesso com desconto!</strong>
         <span className="contador">
@@ -16,7 +19,6 @@ export default function Header({ timeLeft }) {
         </span>
       </div>
 
-      {/* Seção do Header */}
       <section className="section1 padding-top section-header d-flex justify-content-center">
         <div className="container d-flex align-items-end">
           <div className="row">
@@ -41,4 +43,4 @@ export default function Header({ timeLeft }) {
       </section>
     </div>
   );
-};
+}
