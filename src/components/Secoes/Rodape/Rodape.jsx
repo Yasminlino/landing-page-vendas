@@ -5,7 +5,7 @@ import "./Rodape.css";
 export default function Footer() {
   return (
     <footer className="section1 text-light py-4">
-      <div className="container">
+      <div className="container container-footer">
         <div className="row align-items-center">
           {/* Coluna com texto */}
           <div className="col-md-7 mb-4 mb-md-0">
@@ -22,10 +22,15 @@ export default function Footer() {
             <img
               alt="Logo Evolution House Sports"
               className="logo-footer"
-              src={`${process.env.PUBLIC_URL}/static/media/logo.75ec5ba2.webp`}
+              src={`${process.env.PUBLIC_URL}/static/media/logo-128.webp`}
+              srcSet={`
+                ${process.env.PUBLIC_URL}/static/media/logo-64.webp 64w,
+                ${process.env.PUBLIC_URL}/static/media/logo-128.webp 128w,
+                ${process.env.PUBLIC_URL}/static/media/logo-256.webp 256w
+              `}
+              sizes="(max-width: 600px) 64px, 128px"
+              loading="lazy"
             />
-
-
           </div>
         </div>
 
