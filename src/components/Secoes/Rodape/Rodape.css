@@ -2,18 +2,8 @@
   color: rgba(255, 255, 255, 0.514);
 }
 
-.container-footer {
-  width: 80%;
-  margin: 0 auto;
-}
-
 .logo-footer {
-  width: 128px;
+  width: 100%;
+  max-width: 128px;
   height: auto;
-}
-
-@media (max-width: 600px) {
-  .logo-footer {
-    width: 64px;
-  }
 }

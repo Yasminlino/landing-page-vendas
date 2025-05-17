@@ -5,7 +5,7 @@ import "./Rodape.css";
 export default function Footer() {
   return (
     <footer className="section1 text-light py-4">
-      <div className="container container-footer">
+      <div className="container">
         <div className="row align-items-center">
           {/* Coluna com texto */}
           <div className="col-md-7 mb-4 mb-md-0">
@@ -13,7 +13,9 @@ export default function Footer() {
             <p className="text-transparent mb-3">
               Transforme sua vida com o método que já ajudou milhares de pessoas a emagrecer com saúde.
             </p>
-            <p className="mb-1">R. Des. Cid Campelo, 3888 - Cidade Industrial de Curitiba, Curitiba - PR, 81170-350</p>
+            <p className="mb-1">
+              R. Des. Cid Campelo, 3888 - Cidade Industrial de Curitiba, Curitiba - PR, 81170-350
+            </p>
             <p className="mb-0">CNPJ: 53.266.869/0001-49</p>
           </div>
 
@@ -25,8 +27,7 @@ export default function Footer() {
               src={`${process.env.PUBLIC_URL}/static/media/logo-128.webp`}
               srcSet={`
                 ${process.env.PUBLIC_URL}/static/media/logo-64.webp 64w,
-                ${process.env.PUBLIC_URL}/static/media/logo-128.webp 128w,
-                ${process.env.PUBLIC_URL}/static/media/logo-256.webp 256w
+                ${process.env.PUBLIC_URL}/static/media/logo-128.webp 128w
               `}
               sizes="(max-width: 600px) 64px, 128px"
               loading="lazy"
