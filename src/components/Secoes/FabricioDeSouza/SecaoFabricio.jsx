@@ -7,13 +7,17 @@ export const SecaoFabricio = () => {
     <section className="section1 py-5 corPrimaria text-white section-Fabricio">
       <div className="container">
         <div className="row align-items-center">
-           {/* Imagem */}
-           <div className="col-lg-5 mb-4 mb-lg-0 text-center">
+          {/* Imagem */}
+          <div className="col-lg-5 mb-4 mb-lg-0 text-center">
             <img
-              src={ImagemFabricio}
+              className="img-fabricio"
               alt="Fabrício de Sousa"
-              style={{ maxHeight: "20ren", objectFit: "cover" }}
+              src="/landing-page-vendas/static/media/Fabricio-de-Souza.4d78e1ed.webp"
+              width="300"
+              height="400"
+              style={{ objectFit: "cover" }}
             />
+
           </div>
 
           {/* Texto */}

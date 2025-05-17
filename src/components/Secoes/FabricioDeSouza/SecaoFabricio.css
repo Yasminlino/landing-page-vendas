@@ -5,3 +5,9 @@
     background-repeat: no-repeat;
     color: black;
 }
+
+.img-fabricio {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}

@@ -59,8 +59,8 @@ export default function AntesEDepois() {
       </div>
 
       <div className="position-relative">
-        <button onClick={handlePrev} className="carousel-btn prev-btn">
-          <IoChevronBack size={28} color="#333" />
+        <button onClick={handlePrev} className="carousel-btn prev-btn" aria-label="Anterior" title="Anterior">
+          <IoChevronBack size={28} color="#333" aria-hidden="true" focusable="false"/>
         </button>
 
         <div
@@ -87,8 +87,8 @@ export default function AntesEDepois() {
           ))}
         </div>
 
-        <button onClick={handleNext} className="carousel-btn next-btn">
-          <IoChevronForward size={28} color="#333" />
+        <button onClick={handleNext} className="carousel-btn next-btn"  aria-label="Próximo" title="Próximo">
+          <IoChevronForward size={28} color="#333"  aria-hidden="true" focusable="false" />
         </button>
       </div>
     </section>

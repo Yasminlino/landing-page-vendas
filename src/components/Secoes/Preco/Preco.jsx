@@ -66,7 +66,6 @@ export default function Preco({ timeLeft }) {
         timeLeft.minutes > 0 ||
         timeLeft.seconds > 0;
 
-
     return (
         <section className="py-5 text-center sectionPreco" id="precos">
             <div className="container">

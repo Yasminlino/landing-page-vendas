@@ -14,13 +14,13 @@ export default function Footer() {
             <p className="text-transparent mb-3">
               Transforme sua vida com o método que já ajudou milhares de pessoas a emagrecer com saúde.
             </p>
-            <p className="mb-1">Rua Cid Campelo, 188 - Cidade Industrial, Curitiba - PR, 01234-567</p>
-            <p className="mb-0">CNPJ: 12.345.678/0001-90</p>
+            <p className="mb-1">R. Des. Cid Campelo, 3888 - Cidade Industrial de Curitiba, Curitiba - PR, 81170-350</p>
+            <p className="mb-0">CNPJ: 53.266.869/0001-49</p>
           </div>
 
           {/* Coluna com logo */}
           <div className="col-md-5 text-md-end text-center">
-            <img src={logo} alt="Logo" className="logo-footer" />
+            <img src={logo} alt="Logo Evolution House Sports" className="logo-footer" />
           </div>
         </div>
 
@@ -32,38 +32,31 @@ export default function Footer() {
               <a
                 href="https://www.instagram.com/evolutionsportsstudio/"
                 target="_blank"
-                rel="noreferrer"
+                rel="noreferrer noopener"
                 className="text-light fs-5"
+                aria-label="Instagram da Evolution House Sports"
               >
                 <FaInstagram />
               </a>
             </li>
             <li className="ms-3">
               <a
-                href="https://facebook.com"
-                target="_blank"
-                rel="noreferrer"
-                className="text-light fs-5"
-              >
-                <FaFacebookF />
-              </a>
-            </li>
-            <li className="ms-3">
-              <a
                 href="https://youtube.com/@fabriciometododaevolucao"
                 target="_blank"
-                rel="noreferrer"
+                rel="noreferrer noopener"
                 className="text-light fs-5"
+                aria-label="YouTube da Evolution House Sports"
               >
                 <FaYoutube />
               </a>
             </li>
             <li className="ms-3">
               <a
-                href="https://youtube.com"
+                href="https://api.whatsapp.com/send/?phone=5541997258589&text=Ol%C3%A1%2C+Poderia+esclarecer+algumas+d%C3%BAvidas+sobre+o+m%C3%A9todo%3F&type=phone_number&app_absent=0"
                 target="_blank"
-                rel="noreferrer"
+                rel="noreferrer noopener"
                 className="text-light fs-5"
+                aria-label="WhatsApp da Evolution House Sports"
               >
                 <FaWhatsapp />
               </a>
