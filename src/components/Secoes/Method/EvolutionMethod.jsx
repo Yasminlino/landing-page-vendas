@@ -22,13 +22,14 @@ export default function Method() {
         <div className="row justify-content-center mb-5">
           <div className="col-lg-10 text-center" data-aos="fade-up">
             <h2 className="display-4 titulo1 fw-bold mb-4 text-gradient">
-              🎥 Dê o primeiro passo para mudar seu corpo e sua mente
+              <span role="img" aria-label="Câmera de vídeo">🎥</span> Dê o primeiro passo para mudar seu corpo e sua mente
             </h2>
+
             <p>
               Descubra no vídeo abaixo como o Método Evolution já transformou a vida de centenas de pessoas como você, que já estavam cansadas de tentar e falhar.
             </p>
             <div className="container">
-              <YoutubeLazyEmbed />              
+              <YoutubeLazyEmbed />
             </div>
           </div>
         </div>

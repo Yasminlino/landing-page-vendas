@@ -1,16 +1,14 @@
-import React, { useEffect, useState } from 'react';
-import Preco from '../Preco/Preco'; // Importe o componente Preco
+import React from 'react';
 import logo from '../../../assets/images/logo.webp';
 import "./Header.css";
 
 export default function Header({ timeLeft }) {
-
     return (
         <div>
             <div className="alerta-topo">
-                ⏰ Oferta por tempo limitado: <strong>Garanta seu acesso com desconto!</strong>
+                <span role="img" aria-label="Relógio">⏰</span> Oferta por tempo limitado: <strong>Garanta seu acesso com desconto!</strong>
                 <span className="contador">
-                    📅 {timeLeft.days} dias, ⌛ {timeLeft.hours}:{timeLeft.minutes}:{timeLeft.seconds}
+                    <span role="img" aria-label="Calendário">📅</span> {timeLeft.days} dias, <span role="img" aria-label="Relógio de areia">⌛</span> {timeLeft.hours}:{timeLeft.minutes}:{timeLeft.seconds}
                 </span>
             </div>
 
