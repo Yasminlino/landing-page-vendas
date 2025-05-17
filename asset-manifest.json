@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/landing-page-vendas/static/css/main.ab523b3a.chunk.css",
-    "main.js": "/landing-page-vendas/static/js/main.64da65c4.chunk.js",
-    "main.js.map": "/landing-page-vendas/static/js/main.64da65c4.chunk.js.map",
+    "main.css": "/landing-page-vendas/static/css/main.bb781f6c.chunk.css",
+    "main.js": "/landing-page-vendas/static/js/main.dda9156e.chunk.js",
+    "main.js.map": "/landing-page-vendas/static/js/main.dda9156e.chunk.js.map",
     "runtime-main.js": "/landing-page-vendas/static/js/runtime-main.3d150177.js",
     "runtime-main.js.map": "/landing-page-vendas/static/js/runtime-main.3d150177.js.map",
     "static/css/2.7446b4c7.chunk.css": "/landing-page-vendas/static/css/2.7446b4c7.chunk.css",
-    "static/js/2.30ed3d88.chunk.js": "/landing-page-vendas/static/js/2.30ed3d88.chunk.js",
-    "static/js/2.30ed3d88.chunk.js.map": "/landing-page-vendas/static/js/2.30ed3d88.chunk.js.map",
+    "static/js/2.6c7ea732.chunk.js": "/landing-page-vendas/static/js/2.6c7ea732.chunk.js",
+    "static/js/2.6c7ea732.chunk.js.map": "/landing-page-vendas/static/js/2.6c7ea732.chunk.js.map",
     "static/js/3.b5a07ed0.chunk.js": "/landing-page-vendas/static/js/3.b5a07ed0.chunk.js",
     "static/js/3.b5a07ed0.chunk.js.map": "/landing-page-vendas/static/js/3.b5a07ed0.chunk.js.map",
     "index.html": "/landing-page-vendas/index.html",
-    "precache-manifest.ebd1129400fb7a34369771356dc12cd8.js": "/landing-page-vendas/precache-manifest.ebd1129400fb7a34369771356dc12cd8.js",
+    "precache-manifest.e3b0cc6433ab93d19f88e100846946f7.js": "/landing-page-vendas/precache-manifest.e3b0cc6433ab93d19f88e100846946f7.js",
     "service-worker.js": "/landing-page-vendas/service-worker.js",
     "static/css/2.7446b4c7.chunk.css.map": "/landing-page-vendas/static/css/2.7446b4c7.chunk.css.map",
-    "static/css/main.ab523b3a.chunk.css.map": "/landing-page-vendas/static/css/main.ab523b3a.chunk.css.map",
-    "static/js/2.30ed3d88.chunk.js.LICENSE.txt": "/landing-page-vendas/static/js/2.30ed3d88.chunk.js.LICENSE.txt",
+    "static/css/main.bb781f6c.chunk.css.map": "/landing-page-vendas/static/css/main.bb781f6c.chunk.css.map",
+    "static/js/2.6c7ea732.chunk.js.LICENSE.txt": "/landing-page-vendas/static/js/2.6c7ea732.chunk.js.LICENSE.txt",
     "static/media/Conquistas.css": "/landing-page-vendas/static/media/Background1.d75f4f6b.webp",
     "static/media/SecaoFabricio.css": "/landing-page-vendas/static/media/Background2.2099c20a.webp",
     "static/media/Capa-video.webp": "/landing-page-vendas/static/media/Capa-video.acf7ee0b.webp",
@@ -41,8 +41,8 @@
   "entrypoints": [
     "static/js/runtime-main.3d150177.js",
     "static/css/2.7446b4c7.chunk.css",
-    "static/js/2.30ed3d88.chunk.js",
-    "static/css/main.ab523b3a.chunk.css",
-    "static/js/main.64da65c4.chunk.js"
+    "static/js/2.6c7ea732.chunk.js",
+    "static/css/main.bb781f6c.chunk.css",
+    "static/js/main.dda9156e.chunk.js"
   ]
 }
