@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6d37384a58ab13bb4bfb5b5b7d6cc4a1",
+    "revision": "2a9592662e7e4913bdb27af7a700c1ea",
     "url": "/landing-page-vendas/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/landing-page-vendas/static/css/2.7446b4c7.chunk.css"
   },
   {
-    "revision": "9a3d3a41b551810566cc",
-    "url": "/landing-page-vendas/static/css/main.366f700b.chunk.css"
+    "revision": "6f81bbef103d713cede7",
+    "url": "/landing-page-vendas/static/css/main.7ffece6d.chunk.css"
   },
   {
     "revision": "7c9d96193b53d4d9e186",
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/landing-page-vendas/static/js/3.212ae211.chunk.js"
   },
   {
-    "revision": "9a3d3a41b551810566cc",
-    "url": "/landing-page-vendas/static/js/main.3eb8f818.chunk.js"
+    "revision": "6f81bbef103d713cede7",
+    "url": "/landing-page-vendas/static/js/main.1eb5366e.chunk.js"
   },
   {
     "revision": "5311b3fb75be4f66cbcc",
@@ -42,18 +42,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "acf7ee0bb9cfaa54be5daaff7907c097",
     "url": "/landing-page-vendas/static/media/Capa-video.acf7ee0b.webp"
-  },
-  {
-    "revision": "c2e4f0f03f3bd4c017d53c848a1740cd",
-    "url": "/landing-page-vendas/static/media/Imagem-capa-desktop.c2e4f0f0.webp"
-  },
-  {
-    "revision": "3da5df58124d53ce039885056aad70ea",
-    "url": "/landing-page-vendas/static/media/Imagem-capa-mobile.3da5df58.webp"
-  },
-  {
-    "revision": "9563f7f972b940ab436dc9ecf8a3c2b7",
-    "url": "/landing-page-vendas/static/media/Imagem-capa-mobile2.9563f7f9.webp"
   },
   {
     "revision": "60616752cb1ca297bbe34ca87a7668ce",
