@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d6aa1738f2aba8779c69a1c771aa7f25",
+    "revision": "cc1910b37912a150bddf6316d79f5276",
     "url": "/landing-page-vendas/index.html"
   },
   {
-    "revision": "974527cadc21fc302b0e",
+    "revision": "5b43e3b784c71ba03aa6",
     "url": "/landing-page-vendas/static/css/2.7446b4c7.chunk.css"
   },
   {
-    "revision": "df06e68384378a64d353",
-    "url": "/landing-page-vendas/static/css/main.931f5135.chunk.css"
+    "revision": "f61ccfe1e4e083f7cc1f",
+    "url": "/landing-page-vendas/static/css/main.ab523b3a.chunk.css"
   },
   {
-    "revision": "974527cadc21fc302b0e",
-    "url": "/landing-page-vendas/static/js/2.ecb87e88.chunk.js"
+    "revision": "5b43e3b784c71ba03aa6",
+    "url": "/landing-page-vendas/static/js/2.30ed3d88.chunk.js"
   },
   {
     "revision": "0ae889b0d2cac9dfef788b04a9f4e825",
-    "url": "/landing-page-vendas/static/js/2.ecb87e88.chunk.js.LICENSE.txt"
+    "url": "/landing-page-vendas/static/js/2.30ed3d88.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "97a217dc7f96d52e083c",
-    "url": "/landing-page-vendas/static/js/3.db82712b.chunk.js"
+    "revision": "6d93b0ed795a4ef10903",
+    "url": "/landing-page-vendas/static/js/3.b5a07ed0.chunk.js"
   },
   {
-    "revision": "df06e68384378a64d353",
-    "url": "/landing-page-vendas/static/js/main.d861e16b.chunk.js"
+    "revision": "f61ccfe1e4e083f7cc1f",
+    "url": "/landing-page-vendas/static/js/main.64da65c4.chunk.js"
   },
   {
-    "revision": "43149b4d058165682970",
-    "url": "/landing-page-vendas/static/js/runtime-main.4afecf5f.js"
+    "revision": "269651b0782bee013f9c",
+    "url": "/landing-page-vendas/static/js/runtime-main.3d150177.js"
   },
   {
     "revision": "d75f4f6b5907ae4470006f85352a6b0b",
@@ -60,16 +60,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/landing-page-vendas/static/media/Imagem-capa-mobile2.9563f7f9.webp"
   },
   {
-    "revision": "0a7ec1ae55a7224a4e0f03386d75e731",
-    "url": "/landing-page-vendas/static/media/a.0a7ec1ae.jpg"
-  },
-  {
     "revision": "60616752cb1ca297bbe34ca87a7668ce",
     "url": "/landing-page-vendas/static/media/a.60616752.webp"
   },
   {
-    "revision": "37165a6d307ba8653819c95d57af074f",
-    "url": "/landing-page-vendas/static/media/b.37165a6d.jpg"
+    "revision": "f5cb0197413d3e5b012c73f5bea7dfd7",
+    "url": "/landing-page-vendas/static/media/a.f5cb0197.webp"
+  },
+  {
+    "revision": "11174529370cf25d50d910bdb3ef046f",
+    "url": "/landing-page-vendas/static/media/b.11174529.webp"
   },
   {
     "revision": "86b71e29ce9bab03e41d2f7efaa4db48",
@@ -80,16 +80,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/landing-page-vendas/static/media/c.7a780d90.webp"
   },
   {
-    "revision": "a889acae6636542a9de93e930638093a",
-    "url": "/landing-page-vendas/static/media/c.a889acae.jpg"
+    "revision": "f5b3e78bcd45553ecf781981fe66e7c5",
+    "url": "/landing-page-vendas/static/media/c.f5b3e78b.webp"
   },
   {
     "revision": "58db368368ebfb5351c872013dfe6ee5",
     "url": "/landing-page-vendas/static/media/d.58db3683.webp"
   },
   {
+    "revision": "5c3cfb8cdc4e9a1e5cdf11fd02bc9129",
+    "url": "/landing-page-vendas/static/media/d.5c3cfb8c.webp"
+  },
+  {
+    "revision": "001918ae37d479457276e12727b7cafe",
+    "url": "/landing-page-vendas/static/media/e.001918ae.webp"
+  },
+  {
     "revision": "a6bc6c7363fd8a79ae0118ed0cf9171c",
     "url": "/landing-page-vendas/static/media/e.a6bc6c73.webp"
+  },
+  {
+    "revision": "458d2e8cfffbf4270e529a4833d67eec",
+    "url": "/landing-page-vendas/static/media/f.458d2e8c.webp"
   },
   {
     "revision": "58dd03443c27f095819a184316bf026c",
@@ -100,12 +112,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/landing-page-vendas/static/media/g.3cf359a4.webp"
   },
   {
+    "revision": "d614a24795382ea13ffde36b1f403f7b",
+    "url": "/landing-page-vendas/static/media/g.d614a247.webp"
+  },
+  {
+    "revision": "09892bbbca9a689c8cab329fe32eabf7",
+    "url": "/landing-page-vendas/static/media/h.09892bbb.webp"
+  },
+  {
     "revision": "bcb3d005fd0adc663f177142a5fdcfdb",
     "url": "/landing-page-vendas/static/media/h.bcb3d005.webp"
   },
   {
     "revision": "d27fbf16fc4ca8ec7b0bb0e437496c0d",
     "url": "/landing-page-vendas/static/media/i.d27fbf16.webp"
+  },
+  {
+    "revision": "d88fa9e8a0199a2133b4076bc4563953",
+    "url": "/landing-page-vendas/static/media/i.d88fa9e8.webp"
   },
   {
     "revision": "946e6c51a52ff576a70ab76f728c9d52",
@@ -116,8 +140,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/landing-page-vendas/static/media/k.c1ef28e4.webp"
   },
   {
-    "revision": "5ffe1f0b87d5f295f3113ae526e1a8eb",
-    "url": "/landing-page-vendas/static/media/l.5ffe1f0b.webp"
+    "revision": "593f850a48a7eb68eef8834a9b22e151",
+    "url": "/landing-page-vendas/static/media/l.593f850a.webp"
   },
   {
     "revision": "75ec5ba2452db4ddcf052b504d33d734",
