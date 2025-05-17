@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1f2624d55f64ac6f33801054bad141b6",
+    "revision": "9b495d4263ce1fe3abdaa7c08f7b262f",
     "url": "/landing-page-vendas/index.html"
   },
   {
-    "revision": "710cbce9d7eea2a1d971",
+    "revision": "f6173b842dffd8215445",
     "url": "/landing-page-vendas/static/css/2.7446b4c7.chunk.css"
   },
   {
-    "revision": "96c99f5c7797f5890103",
-    "url": "/landing-page-vendas/static/css/main.ee460370.chunk.css"
+    "revision": "43a95fb103f60367b27c",
+    "url": "/landing-page-vendas/static/css/main.089a3d30.chunk.css"
   },
   {
-    "revision": "710cbce9d7eea2a1d971",
-    "url": "/landing-page-vendas/static/js/2.c44203fd.chunk.js"
+    "revision": "f6173b842dffd8215445",
+    "url": "/landing-page-vendas/static/js/2.71b8ea24.chunk.js"
   },
   {
     "revision": "0ae889b0d2cac9dfef788b04a9f4e825",
-    "url": "/landing-page-vendas/static/js/2.c44203fd.chunk.js.LICENSE.txt"
+    "url": "/landing-page-vendas/static/js/2.71b8ea24.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6d93b0ed795a4ef10903",
-    "url": "/landing-page-vendas/static/js/3.b5a07ed0.chunk.js"
+    "revision": "db86994ba1a29bfa6460",
+    "url": "/landing-page-vendas/static/js/3.b1e94660.chunk.js"
   },
   {
-    "revision": "96c99f5c7797f5890103",
-    "url": "/landing-page-vendas/static/js/main.c8d038a4.chunk.js"
+    "revision": "43a95fb103f60367b27c",
+    "url": "/landing-page-vendas/static/js/main.b6d81502.chunk.js"
   },
   {
-    "revision": "269651b0782bee013f9c",
-    "url": "/landing-page-vendas/static/js/runtime-main.3d150177.js"
+    "revision": "ed895b748f536bd31ad5",
+    "url": "/landing-page-vendas/static/js/runtime-main.5ccb53d8.js"
   },
   {
     "revision": "d75f4f6b5907ae4470006f85352a6b0b",
@@ -42,10 +42,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "acf7ee0bb9cfaa54be5daaff7907c097",
     "url": "/landing-page-vendas/static/media/Capa-video.acf7ee0b.webp"
-  },
-  {
-    "revision": "4d78e1ed220f2a7332efaeef22ed75f5",
-    "url": "/landing-page-vendas/static/media/Fabricio-de-Souza.4d78e1ed.webp"
   },
   {
     "revision": "c2e4f0f03f3bd4c017d53c848a1740cd",
