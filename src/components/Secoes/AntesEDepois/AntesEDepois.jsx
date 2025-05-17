@@ -41,9 +41,7 @@ export default function AntesEDepois() {
   }, []);
 
   const handleNext = () => {
-    if (scrollRef.current) {
-      scrollRef.current.scrollLeft += itemWidth;
-    }
+    if (scrollRef.current) scrollRef.current.scrollLeft += itemWidth;
   };
 
   const handlePrev = () => {
@@ -59,10 +57,12 @@ export default function AntesEDepois() {
           </div>
         </div>
       </div>
+
       <div className="position-relative">
         <button onClick={handlePrev} className="carousel-btn prev-btn">
           <IoChevronBack size={28} color="#333" />
         </button>
+
         <div
           ref={scrollRef}
           className="d-flex overflow-hidden hide-scrollbar gap-3 px-4"
@@ -72,23 +72,21 @@ export default function AntesEDepois() {
           }}
         >
           {[...imagens, ...imagens].map((img, idx) => (
-            <div
-              key={idx}
-              className="flex-shrink-0 carrossel-img-container"
-            >
-              <img
-                src={img}
-                alt={`Antes e depois do aluno ${idx + 1}`}
-                className="img-fluid rounded"
-                style={{
-                  height: "30rem",
-                  objectFit: "cover",
-                  width: "100%",
-                }}
-              />
+            <div key={idx} className="flex-shrink-0 carrossel-img-container">
+              <picture>
+                <source srcSet={img} type="image/webp" />
+                <img
+                  src={img}
+                  alt={`Antes e depois do aluno ${idx + 1}`}
+                  className="img-antes-depois"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </picture>
             </div>
           ))}
         </div>
+
         <button onClick={handleNext} className="carousel-btn next-btn">
           <IoChevronForward size={28} color="#333" />
         </button>

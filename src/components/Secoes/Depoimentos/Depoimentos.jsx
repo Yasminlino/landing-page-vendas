@@ -1,152 +1,160 @@
-import React, { useRef, useEffect } from "react";
-import img1 from "../../../assets/images/depoimentos/a.jpg";
-import img2 from "../../../assets/images/depoimentos/b.jpg";
-import img3 from "../../../assets/images/depoimentos/c.jpg";
-
+import React, { useRef, useState, useEffect } from "react";
 import { IoChevronBack, IoChevronForward } from "react-icons/io5";
+import { FiMaximize2 } from "react-icons/fi";
+
+import img1 from "../../../assets/images/depoimentos/a.webp";
+import img2 from "../../../assets/images/depoimentos/b.webp";
+import img3 from "../../../assets/images/depoimentos/c.webp";
+import img4 from "../../../assets/images/depoimentos/d.webp";
+import img5 from "../../../assets/images/depoimentos/e.webp";
+import img6 from "../../../assets/images/depoimentos/f.webp";
+import img7 from "../../../assets/images/depoimentos/g.webp";
+import img8 from "../../../assets/images/depoimentos/h.webp";
+import img9 from "../../../assets/images/depoimentos/i.webp";
+
 import "./Depoimento.css";
 
-const depoimentos = [img1, img2, img3];
+const depoimentos = [img1, img2, img3, img4, img5, img6, img7, img8, img9];
 
 export default function Depoimentos() {
   const scrollRef = useRef(null);
-  const itemWidth = 420;
+  const [selectedImage, setSelectedImage] = useState(null);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
 
   useEffect(() => {
-    const scroll = () => {
-      if (scrollRef.current) {
-        if (scrollRef.current.scrollLeft >= scrollRef.current.scrollWidth / 2) {
-          scrollRef.current.scrollLeft = 0;
-        } else {
-          scrollRef.current.scrollLeft += 1;
-        }
-      }
-    };
-    const interval = setInterval(scroll, 20);
-    return () => clearInterval(interval);
+    const handleResize = () => setIsMobile(window.innerWidth <= 768);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   const handleNext = () => {
     if (scrollRef.current) {
-      scrollRef.current.scrollLeft += itemWidth;
+      scrollRef.current.scrollLeft += scrollRef.current.offsetWidth;
     }
   };
 
   const handlePrev = () => {
-    if (scrollRef.current) scrollRef.current.scrollLeft -= itemWidth;
+    if (scrollRef.current) {
+      scrollRef.current.scrollLeft -= scrollRef.current.offsetWidth;
+    }
   };
 
   return (
-    <section className="py-5 position-relative">
+    <section className="section1 py-5 position-relative">
       <div className="container">
         <div className="row justify-content-center mb-4">
           <div className="col-lg-8 text-center">
-            <h2 className="display-5 mb-3 color-white">Depoimentos Reais, Resultados Reais</h2>
-            <p className="lead color-white">Não são promessas vazias. São mensagens reais de quem já começou sua jornada de transformação e viu a balança, a autoestima e a vida mudarem de verdade.</p>
+            <h2 className="display-5 mb-3 color-white">
+              Depoimentos Reais, Resultados Reais
+            </h2>
+            <p className="lead color-white">
+              Não são promessas vazias. São mensagens reais de quem já começou
+              sua jornada de transformação e viu a balança, a autoestima e a
+              vida mudarem de verdade.
+            </p>
           </div>
         </div>
       </div>
-      <div className="position-relative">
+
+      <div className="position-relative depoimentos-carousel-wrapper">
         <button onClick={handlePrev} className="carousel-btn prev-btn">
           <IoChevronBack size={28} color="#333" />
         </button>
+
         <div
           ref={scrollRef}
-          className="d-flex overflow-hidden hide-scrollbar gap-3 px-4"
+          className="d-flex overflow-x-auto hide-scrollbar px-2 px-md-4 justify-content-center align-items-center"
           style={{
-            scrollSnapType: "none",
-            whiteSpace: "nowrap",
+            scrollSnapType: "x mandatory",
+            scrollBehavior: "smooth",
+            gap: "1rem",
           }}
         >
-          {[...depoimentos, ...depoimentos].map((img, idx) => (
+          {depoimentos.map((img, idx) => (
             <div
               key={idx}
               className="flex-shrink-0 carrossel-img-container"
+              style={{
+                width: isMobile ? "85vw" : "400px",
+                maxWidth: "95vw",
+                scrollSnapAlign: "center",
+                position: "relative",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                margin: "0 auto",
+                background: "rgba(0,0,0,0.15)",
+                borderRadius: "14px",
+                boxShadow: "0 2px 16px rgba(0,0,0,0.15)",
+                padding: isMobile ? "10px" : "18px",
+              }}
             >
               <img
                 src={img}
-                alt={`Antes e depois do aluno ${idx + 1}`}
-                className="img-fluid rounded"
+                alt={`Depoimento ${idx + 1}`}
+                className="img-antes-depois"
                 style={{
-                  height: "30rem",
-                  objectFit: "cover",
                   width: "100%",
+                  height: isMobile ? "260px" : "340px",
+                  objectFit: "cover",
+                  borderRadius: "10px",
+                  background: "#fff",
                 }}
+                loading="lazy"
+                decoding="async"
               />
+              <button
+                onClick={() => setSelectedImage(img)}
+                className="zoom-icon"
+                style={{
+                  position: "absolute",
+                  top: "14px",
+                  right: "14px",
+                  backgroundColor: "rgba(0,0,0,0.5)",
+                  border: "none",
+                  borderRadius: "50%",
+                  padding: "6px",
+                  cursor: "pointer",
+                  zIndex: 999,
+                }}
+              >
+                <FiMaximize2 size={20} color="#fff" />
+              </button>
             </div>
           ))}
         </div>
+
+        {selectedImage && (
+          <div
+            className="modal d-flex justify-content-center align-items-center"
+            style={{
+              position: "fixed",
+              top: 0,
+              left: 0,
+              width: "100%",
+              height: "100%",
+              backgroundColor: "rgba(0, 0, 0, 0.8)",
+              zIndex: 1050,
+            }}
+            onClick={() => setSelectedImage(null)}
+          >
+            <img
+              src={selectedImage}
+              alt="Imagem ampliada do depoimento"
+              className="img-fluid rounded"
+              style={{
+                maxHeight: "90%",
+                maxWidth: "90%",
+                objectFit: "contain",
+              }}
+            />
+          </div>
+        )}
+
         <button onClick={handleNext} className="carousel-btn next-btn">
           <IoChevronForward size={28} color="#333" />
         </button>
       </div>
-      <div className="d-flex justify-content-center mt-5 text-centerb btn-depoimento">
-          <a href="#precos" className="botaoPrincipal">
-            Quero Evoluir Agora
-          </a>
-        </div>
     </section>
   );
 }
-
-
-// export default function Depoimentos() {
-//   const [selectedImage, setSelectedImage] = useState(null);
-
-//   return (
-//     <section className="py-5 section1">
-//       <div className="container">
-//         <div className="row justify-content-center mb-4">
-//           <div className="col-lg-8 text-center">
-//             <h2 className="display-5 mb-3 color-white">Depoimentos de Sucesso</h2>
-//             <p className="lead color-white">Veja como o nosso método transformou a vida de milhares de pessoas.</p>
-//           </div>
-//         </div>
-
-//         <div className="row justify-content-center g-4">
-//           {depoimentos.map((img, index) => (
-//             <div className="col-12 col-sm-6 col-md-4 col-lg-3" key={index}>
-//               <div
-//                 className="card h-100 border-0 shadow-sm"
-//                 onClick={() => setSelectedImage(img)}
-//                 style={{ cursor: "pointer" }}
-//               >
-//                 <img
-//                   src={img}
-//                   alt={`Imagem de depoimento ${index + 1}`}
-//                   className="img-fluid rounded"
-//                   style={{ height: "300px", objectFit: "cover" }}
-//                 />
-//               </div>
-//             </div>
-//           ))}
-//         </div>
-
-//         {/* Modal para exibir a imagem em tamanho maior */}
-//         {selectedImage && (
-//           <div
-//             className="modal d-flex justify-content-center align-items-center"
-//             style={{
-//               position: "fixed",
-//               top: 0,
-//               left: 0,
-//               width: "100%",
-//               height: "100%",
-//               backgroundColor: "rgba(0, 0, 0, 0.8)",
-//               zIndex: 1050,
-//             }}
-//             onClick={() => setSelectedImage(null)}
-//           >
-//             <img
-//               src={selectedImage}
-//               alt="Imagem ampliada do depoimento"
-//               className="img-fluid rounded"
-//               style={{ maxHeight: "90%", maxWidth: "90%" }}
-//             />
-//           </div>
-//         )}
-        
-//       </div>
-//     </section>
-//   );
-// }
