@@ -39,13 +39,22 @@ h1 {
 }
 
 .section-header {
-    background-image: url('/assets/images/Imagem-capa-desktop.webp');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: black;
-    height: 90vh;
+  position: relative; /* importante para o posicionamento absoluto da img */
+  overflow: hidden;
+  height: 90vh; /* ou o que precisar */
 }
+
+.background-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  user-select: none;
+  pointer-events: none;
+}
+
 
 .section-header>div {
     width: 70%;

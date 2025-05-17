@@ -20,33 +20,11 @@ export default function Header({ timeLeft }) {
   return (
     <div>
       <Helmet>
-        {/* Preload imagens */}
+        {/* Preload imagens e fontes */}
         <link rel="preload" as="image" href={imagemDesktop} />
         <link rel="preload" as="image" href={logo} />
-        {/* Preload fontes importantes */}
-        <link
-          rel="preload"
-          href="/path-to-fonts/Bitcrusher.woff2"
-          as="font"
-          type="font/woff2"
-          crossorigin="anonymous"
-        />
-        <link
-          rel="preload"
-          href="/path-to-fonts/Poppins.woff2"
-          as="font"
-          type="font/woff2"
-          crossorigin="anonymous"
-        />
+        {/* Fonts com preload se aplicável */}
       </Helmet>
-
-      {/* Força carregamento da imagem de fundo */}
-      <img
-        src={backgroundImage}
-        alt=""
-        aria-hidden="true"
-        style={{ display: 'none' }}
-      />
 
       {/* Alerta topo */}
       <div className="alerta-topo">
@@ -68,16 +46,16 @@ export default function Header({ timeLeft }) {
 
       {/* Header */}
       <section
-        className="section1 section-header d-flex justify-content-center"
-        style={{
-          backgroundImage: `url(${backgroundImage})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat',
-          height: '90vh',
-        }}
+        className="section1 section-header d-flex justify-content-center position-relative"
+        style={{ height: '90vh' }}
       >
-        <div className="container d-flex align-items-end">
+        <img
+          src={backgroundImage}
+          alt="Imagem de fundo"
+          className="background-img"
+          decoding="async"
+        />
+        <div className="container d-flex align-items-end position-relative">
           <div className="row header-row-fixa">
             <div className="logo-header">
               <img
