@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9cd52bc4c420be19af03c586cc784371",
+    "revision": "44ef8e070f8139a4c354867aca5ce332",
     "url": "/landing-page-vendas/index.html"
   },
   {
-    "revision": "0b32f6aa2ba49dcb9887",
+    "revision": "7c9d96193b53d4d9e186",
     "url": "/landing-page-vendas/static/css/2.7446b4c7.chunk.css"
   },
   {
-    "revision": "a8b98de129d4fb6eac21",
-    "url": "/landing-page-vendas/static/css/main.33f5486b.chunk.css"
+    "revision": "764f341753a2cfeb0193",
+    "url": "/landing-page-vendas/static/css/main.089a3d30.chunk.css"
   },
   {
-    "revision": "0b32f6aa2ba49dcb9887",
-    "url": "/landing-page-vendas/static/js/2.a0b71608.chunk.js"
+    "revision": "7c9d96193b53d4d9e186",
+    "url": "/landing-page-vendas/static/js/2.88f5cb2e.chunk.js"
   },
   {
     "revision": "4d678d03350ba94d75bcadbdbee10068",
-    "url": "/landing-page-vendas/static/js/2.a0b71608.chunk.js.LICENSE.txt"
+    "url": "/landing-page-vendas/static/js/2.88f5cb2e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "64f987be98ea5ba6f935",
-    "url": "/landing-page-vendas/static/js/3.2978f50d.chunk.js"
+    "revision": "995090e4993f04c145f5",
+    "url": "/landing-page-vendas/static/js/3.212ae211.chunk.js"
   },
   {
-    "revision": "a8b98de129d4fb6eac21",
-    "url": "/landing-page-vendas/static/js/main.d271df91.chunk.js"
+    "revision": "764f341753a2cfeb0193",
+    "url": "/landing-page-vendas/static/js/main.60fbfeaf.chunk.js"
   },
   {
-    "revision": "ee659323e36dc09851bb",
-    "url": "/landing-page-vendas/static/js/runtime-main.1c8041d8.js"
+    "revision": "5311b3fb75be4f66cbcc",
+    "url": "/landing-page-vendas/static/js/runtime-main.6e510e27.js"
   },
   {
     "revision": "d75f4f6b5907ae4470006f85352a6b0b",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c2e4f0f03f3bd4c017d53c848a1740cd",
     "url": "/landing-page-vendas/static/media/Imagem-capa-desktop.c2e4f0f0.webp"
+  },
+  {
+    "revision": "3da5df58124d53ce039885056aad70ea",
+    "url": "/landing-page-vendas/static/media/Imagem-capa-mobile.3da5df58.webp"
   },
   {
     "revision": "9563f7f972b940ab436dc9ecf8a3c2b7",
