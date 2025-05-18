@@ -1,15 +1,18 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import logo from '../../../assets/images/logo.webp';
-import "./Header.css";
+import capaDesktop from '../../../assets/images/Imagem-capa-desktop.webp';
+import capaMobile from '../../../assets/images/Imagem-capa-mobile.webp';
+import capaMobile2 from '../../../assets/images/Imagem-capa-mobile2.webp';
+import './Header.css';
 
 export default function Header({ timeLeft }) {
   return (
     <div>
       <Helmet>
-        <link rel="preload" as="image" href="../../../assets/images/Imagem-capa-desktop.webp" />
-        <link rel="preload" as="image" href="../../../assets/images/Imagem-capa-mobile.webp" />
-        <link rel="preload" as="image" href="../../../assets/images/Imagem-capa-mobile2.webp" />
+        <link rel="preload" as="image" href={capaDesktop} />
+        <link rel="preload" as="image" href={capaMobile} />
+        <link rel="preload" as="image" href={capaMobile2} />
       </Helmet>
 
       <div className="alerta-topo">

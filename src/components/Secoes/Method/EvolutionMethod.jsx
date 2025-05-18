@@ -48,7 +48,7 @@ export default function Method() {
           <div className="col-12 col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
             <div className="card custom-card h-100">
               <IoCompassOutline className="icon" />
-              <h3 className="card-title">Clareza de Propósito</h3>
+              <h5 className="card-title">Clareza de Propósito</h5>
               <p className="card-text">
                 Você precisa descobrir o seu porquê.
               </p>

@@ -11,7 +11,7 @@ import PerguntasFrequentes from './Secoes/PerguntasFrequentes/PerguntasFrequente
 import Preco from './Secoes/Preco/Preco';
 import './LandingPage.css';
 
-const promoEndDate = new Date('2025-05-13');
+const promoEndDate = new Date('2025-05-18');
 promoEndDate.setDate(promoEndDate.getDate() + 10);
 
 const LandingPage = () => {

@@ -18,3 +18,8 @@
 .corLaranja {
     color: var(--cor-primaria) !important;
 }
+
+.botao{
+    margin-top: 1rem;
+    padding: 1px!important;
+}

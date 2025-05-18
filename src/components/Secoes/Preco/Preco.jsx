@@ -20,7 +20,7 @@ export default function Preco({ timeLeft }) {
             ],
             corCabecalho: "bg-warning",
             corBotao: "btn-warning",
-            link: "https://sun.eduzz.com/1W3ZOV7PW2?cupom=METHODBASIC"
+            link: "https://sun.eduzz.com/Z0B5KZYJWA?cupom=METHODBASIC"
         },
         {
             nome: "Plano Intermediário",
@@ -67,8 +67,8 @@ export default function Preco({ timeLeft }) {
         timeLeft.seconds > 0;
 
     return (
-        <section className="py-5 text-center sectionPreco" id="precos">
-            <div className="container">
+        <section className="py-5 text-center sectionPreco">
+            <div className="container"  id="precos">
                 <h2 className="mb-4 color-white">Escolha o plano ideal para você</h2>
                 <p className="mb-5 color-white">
                     Transforme sua vida com o método que já ajudou milhares de pessoas a emagrecer com saúde.

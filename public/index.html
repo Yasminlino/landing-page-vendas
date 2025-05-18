@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
   <meta charset="utf-8" />
@@ -9,37 +9,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>The Evolution Method</title>
 
-  <!-- Google Analytics com defer -->
-  <script defer src="https://www.googletagmanager.com/gtag/js?id=G-6DSG4MGGJE"></script>
+  <!-- Preconnect para performance -->
+  <link rel="preconnect" href="https://www.googletagmanager.com" />
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+
+  <!-- Google Tag Manager - carregado de forma adiada -->
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'G-6DSG4MGGJE');
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    window.addEventListener('load', function () {
+      setTimeout(() => {
+        // Adiciona o script GTM
+        const script = document.createElement('script');
+        script.src = 'https://www.googletagmanager.com/gtm.js?id=G-6DSG4MGGJE';
+        script.async = true;
+        document.head.appendChild(script);
+
+        // Inicializa o GTAG após o script carregar
+        script.onload = function () {
+          gtag('js', new Date());
+          gtag('config', 'G-6DSG4MGGJE');
+        };
+      }, 3000);
+    });
   </script>
 </head>
+
 <body>
-  <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="root"></div>
-
-  <!-- Google Tag Manager (deve ficar logo após abertura do <body>) -->
-  <script>
-    (function (w, d, s, l, i) {
-      w[l] = w[l] || [];
-      w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
-      var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s),
-        dl = l != 'dataLayer' ? '&l=' + l : '';
-      j.async = true;
-      j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-      f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'G-6DSG4MGGJE');
-  </script>
-
-  <!-- Google Tag Manager (noscript) -->
   <noscript>
     <iframe src="https://www.googletagmanager.com/ns.html?id=G-6DSG4MGGJE" height="0" width="0"
       style="display:none;visibility:hidden"></iframe>
   </noscript>
+
+  <div id="root"></div>
 </body>
+
 </html>

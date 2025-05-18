@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
-import { FaFire   } from "react-icons/fa";
+import { FaFire } from "react-icons/fa";
 import "aos/dist/aos.css";
 import "../ParaQuem/ParaQuem.css";
 
@@ -12,7 +12,7 @@ export default function ParaQuem() {
   const itens = [
     " Já tentou de tudo: Mesmo com inúmeras tentativas, ainda não encontrou um método que se encaixe perfeitamente na sua rotina.",
     " Busca mudança de verdade: Está cansado de soluções temporárias e quer uma transformação que vá além da balança.",
-    " Valoriza a saúde e o bem-estar: Deseja emagrecer de forma inteligente, sem abrir mão do que gosta, respeitando o seu corpo e seus limites.",    
+    " Valoriza a saúde e o bem-estar: Deseja emagrecer de forma inteligente, sem abrir mão do que gosta, respeitando o seu corpo e seus limites.",
     " Tem o poder de decisão: Cansou de prolongar o sofrimento e quer assumir o controle da própria vida."
   ];
 
@@ -38,12 +38,15 @@ export default function ParaQuem() {
                   data-aos-delay={index * 150}
                   key={index}
                 >
-                  <FaFire style={{color: 'rgb(221 139 87)', backgroundColor: '#00000000'}} />{item}
+                  <FaFire style={{ color: 'rgb(221 139 87)', backgroundColor: '#00000000' }} />{item}
                 </li>
               ))}
             </ul>
           </div>
         </div>
+        <a href="#precos" className="botaoPrincipal botao">
+          Sim, esse método é pra mim!
+        </a>
       </div>
     </section>
   );
