@@ -46,8 +46,8 @@ code {
 
 @font-face {
   font-family: 'Anton';
-  src: url('/src/assets/fonts/Anton.woff2') format('woff2'),
-    url('/src/assets/fonts/Anton.woff') format('woff');
+  src: url('/fonts/Anton.woff2') format('woff2'),
+    url('/fonts/Anton.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -55,8 +55,8 @@ code {
 
 @font-face {
   font-family: 'Poppins';
-  src: url('/src/assets/fonts/Poppins-Thin.woff2') format('woff2'),
-    url('/src/assets/fonts/Poppins-Thin.woff') format('woff');
+  src: url('/fonts/Poppins-Thin.woff2') format('woff2'),
+       url('/fonts/Poppins-Thin.woff') format('woff');
   font-weight: 100;
   font-style: normal;
   font-display: swap;
@@ -64,8 +64,8 @@ code {
 
 @font-face {
   font-family: 'Roboto';
-  src: url('/src/assets/fonts/Roboto-Regular.woff2') format('woff2'),
-    url('/src/assets/fonts/Roboto-Regular.woff') format('woff');
+  src: url('/fonts/Roboto-Regular.woff2') format('woff2'),
+    url('/fonts/Roboto-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
