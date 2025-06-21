@@ -11,15 +11,15 @@ export default function Preco({ timeLeft }) {
             precoPromocional: "R$ 57,90",
             descricao: "Acesso ao método completo por 1 mês.",
             itens: [
-                { icone: <FaCheck className="corLaranja" />, texto: "Curso em vídeos" },
-                { icone: <FaCheck className="corLaranja" />, texto: "Planilha de cálculo metabólico" },
-                { icone: <FaCheck className="corLaranja" />, texto: "E-book de receitas" },
-                { icone: <FaTimes className="icone-vermelho" />, texto: "4 mentorias em grupo (em 30 dias)" },
-                { icone: <FaTimes className="icone-vermelho" />, texto: "Acesso ao grupo de whatsapp" },
-                { icone: <FaTimes className="icone-vermelho" />, texto: "Aplicativo de treinos" },
-                { icone: <FaTimes className="icone-vermelho" />, texto: "Áudios motivacionais" }
+                { icone: <FaCheck className="corLaranja" aria-hidden="true" />, texto: "Curso em vídeos" },
+                { icone: <FaCheck className="corLaranja" aria-hidden="true" />, texto: "Planilha de cálculo metabólico" },
+                { icone: <FaCheck className="corLaranja" aria-hidden="true" />, texto: "E-book de receitas" },
+                { icone: <FaTimes className="icone-vermelho" aria-hidden="true" />, texto: "4 mentorias em grupo (em 30 dias)" },
+                { icone: <FaTimes className="icone-vermelho" aria-hidden="true" />, texto: "Acesso ao grupo de whatsapp" },
+                { icone: <FaTimes className="icone-vermelho" aria-hidden="true" />, texto: "Aplicativo de treinos" },
+                { icone: <FaTimes className="icone-vermelho" aria-hidden="true" />, texto: "Áudios motivacionais" }
             ],
-            corCabecalho: "bg-warning",
+            corCabecalho: "bg-warning text-dark",
             corBotao: "btn-warning",
             link: "https://sun.eduzz.com/Z0B5KZYJWA?cupom=ARRAIAEVOLUTIONBASIC"
         },
@@ -30,13 +30,13 @@ export default function Preco({ timeLeft }) {
             precoPromocional: "R$ 148,90",
             descricao: "Acesso ao método completo por 3 meses.",
             itens: [
-                { icone: <FaCheck className="corLaranja" />, texto: "Curso em vídeos" },
-                { icone: <FaCheck className="corLaranja" />, texto: "Planilha de cálculo metabólico" },
-                { icone: <FaCheck className="corLaranja" />, texto: "E-book de receitas" },
-                { icone: <FaCheck className="corLaranja" />, texto: "4 mentorias em grupo (em 30 dias)" },
-                { icone: <FaCheck className="corLaranja" />, texto: "Acesso ao grupo de whatsapp" },
-                { icone: <FaTimes className="icone-vermelho" />, texto: "Aplicativo de treinos" },
-                { icone: <FaTimes className="icone-vermelho" />, texto: "Áudios motivacionais" }
+                { icone: <FaCheck className="corLaranja" aria-hidden="true" />, texto: "Curso em vídeos" },
+                { icone: <FaCheck className="corLaranja" aria-hidden="true" />, texto: "Planilha de cálculo metabólico" },
+                { icone: <FaCheck className="corLaranja" aria-hidden="true" />, texto: "E-book de receitas" },
+                { icone: <FaCheck className="corLaranja" aria-hidden="true" />, texto: "4 mentorias em grupo (em 30 dias)" },
+                { icone: <FaCheck className="corLaranja" aria-hidden="true" />, texto: "Acesso ao grupo de whatsapp" },
+                { icone: <FaTimes className="icone-vermelho" aria-hidden="true" />, texto: "Aplicativo de treinos" },
+                { icone: <FaTimes className="icone-vermelho" aria-hidden="true" />, texto: "Áudios motivacionais" }
             ],
             corCabecalho: "bg-primary",
             corBotao: "btn-dark",
@@ -49,15 +49,15 @@ export default function Preco({ timeLeft }) {
             precoPromocional: "R$ 197,90",
             descricao: "Acesso ao método completo por 3 meses.",
             itens: [
-                { icone: <FaCheck className="corLaranja me-2" />, texto: "Curso em vídeos" },
-                { icone: <FaCheck className="corLaranja me-2" />, texto: "Planilha de cálculo metabólico" },
-                { icone: <FaCheck className="corLaranja me-2" />, texto: "E-book de receitas" },
-                { icone: <FaCheck className="corLaranja me-2" />, texto: "8 mentorias em grupo (em 30 dias)" },
-                { icone: <FaCheck className="corLaranja me-2" />, texto: "Acesso ao grupo de whatsapp" },
-                { icone: <FaCheck className="corLaranja me-2" />, texto: "Aplicativo de treinos" },
-                { icone: <FaCheck className="corLaranja me-2" />, texto: "Áudios motivacionais" }
+                { icone: <FaCheck className="corLaranja" aria-hidden="true" />, texto: "Curso em vídeos" },
+                { icone: <FaCheck className="corLaranja" aria-hidden="true" />, texto: "Planilha de cálculo metabólico" },
+                { icone: <FaCheck className="corLaranja" aria-hidden="true" />, texto: "E-book de receitas" },
+                { icone: <FaCheck className="corLaranja" aria-hidden="true" />, texto: "8 mentorias em grupo (em 30 dias)" },
+                { icone: <FaCheck className="corLaranja" aria-hidden="true" />, texto: "Acesso ao grupo de whatsapp" },
+                { icone: <FaCheck className="corLaranja" aria-hidden="true" />, texto: "Aplicativo de treinos" },
+                { icone: <FaCheck className="corLaranja" aria-hidden="true" />, texto: "Áudios motivacionais" }
             ],
-            corCabecalho: "bg-success",
+            corCabecalho: "bg-success text-white",
             corBotao: "btn-success",
             link: "https://sun.eduzz.com/G961JNG5W1?cupom=ARRAIAEVOLUTIONPREMIUM"
         }
@@ -70,34 +70,37 @@ export default function Preco({ timeLeft }) {
         timeLeft.seconds > 0;
 
     return (
-        <section className="py-5 text-center sectionPreco">
-            <div className="container"  id="precos">
-                <h2 className="mb-4 color-white">Escolha o plano ideal para você</h2>
-                <p className="mb-5 color-white">
+        <section className="py-5 text-center sectionPreco bg-black text-white">
+            <div className="container" id="precos">
+                <h2 className="mb-4">Escolha o plano ideal para você</h2>
+                <p className="mb-5">
                     Transforme sua vida com o método que já ajudou milhares de pessoas a emagrecer com saúde.
                 </p>
                 <div className="row">
                     {planos.map((plano, index) => (
                         <div className="col-md-4 mb-4" key={index}>
-                            <div className="card h-100 shadow-sm d-flex flex-column card-preco">
+                            <div className="card h-100 shadow-sm d-flex flex-column card-preco bg-dark text-white">
                                 <div className={`card-header ${plano.corCabecalho}`}>
-                                    <h3 className="mb-0">{plano.nome}</h3>
+                                    <h3 className="mb-0 fw-bold">{plano.nome}</h3>
                                 </div>
                                 <div className="card-body d-flex flex-column">
                                     {isPromoActive && (
-                                        <h4 className="text-muted text-decoration-line-through">{plano.precoOriginal}</h4>
+                                        <p className="mb-1">
+                                            <del className="text-secondary">{plano.precoOriginal}</del>
+                                        </p>
                                     )}
-                                    <h3>{isPromoActive ? plano.precoPromocional : plano.precoOriginal}</h3>
+                                    <p className="mb-3 fs-4 fw-bold">
+                                        {isPromoActive ? plano.precoPromocional : plano.precoOriginal}
+                                    </p>
                                     <p className="mb-3">{plano.descricao}</p>
 
                                     <ul className="list-unstyled flex-grow-1 text-start">
                                         {plano.itens.map((item, i) => {
                                             const isIndisponivel = item.icone.type === FaTimes;
-
                                             return (
                                                 <li key={i} className="d-flex align-items-center mb-2">
                                                     <span className="me-2">{item.icone}</span>
-                                                    <span className={isIndisponivel ? "text-decoration-line-through text-line" : ""}>
+                                                    <span className={isIndisponivel ? "text-decoration-line-through" : ""}>
                                                         {item.texto}
                                                     </span>
                                                 </li>

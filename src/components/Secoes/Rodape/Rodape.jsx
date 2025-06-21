@@ -30,6 +30,8 @@ export default function Footer() {
                 ${process.env.PUBLIC_URL}/static/media/logo-128.webp 128w
               `}
               sizes="(max-width: 600px) 64px, 128px"
+              width="128"
+              height="128"
               loading="lazy"
             />
           </div>

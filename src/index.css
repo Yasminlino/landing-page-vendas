@@ -19,8 +19,15 @@ ul,
 ol,
 svg,
 img,
+del,
 button {
   background-color: transparent;
+}
+
+h1, .display-5, .display-4, .titulo1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  min-height: 3rem; 
 }
 
 body {
@@ -58,17 +65,17 @@ code {
 
 @font-face {
   font-family: 'Anton';
-  src: url('/src/assets/fonts/Anton.woff2') format('woff2'),
-    url('/src/assets/fonts/Anton.woff') format('woff');
+  src: url('/fonts/Anton.woff2') format('woff2'),
+    url('/fonts/Anton.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Poppins';
-  src: url('/src/assets/fonts/Poppins-Thin.woff2') format('woff2'),
-    url('/src/assets/fonts/Poppins-Thin.woff') format('woff');
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  src: url('/fonts/Poppins-Thin.woff2') format('woff2'),
+       url('/fonts/Poppins-Thin.woff') format('woff');
   font-weight: 100;
   font-style: normal;
   font-display: swap;
@@ -76,8 +83,8 @@ code {
 
 @font-face {
   font-family: 'Roboto';
-  src: url('/src/assets/fonts/Roboto-Regular.woff2') format('woff2'),
-    url('/src/assets/fonts/Roboto-Regular.woff') format('woff');
+  src: url('/fonts/Roboto-Regular.woff2') format('woff2'),
+    url('/fonts/Roboto-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
