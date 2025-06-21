@@ -4,6 +4,7 @@ import logo from '../../../assets/images/logo.webp';
 import capaDesktop from '../../../assets/images/Imagem-capa-desktop.webp';
 import capaMobile from '../../../assets/images/Imagem-capa-mobile.webp';
 import capaMobile2 from '../../../assets/images/Imagem-capa-mobile2.webp';
+import tema from '../../../assets/images/tema-junino.webp';
 import './Header.css';
 
 export default function Header({ timeLeft }) {
@@ -15,13 +16,13 @@ export default function Header({ timeLeft }) {
         <link rel="preload" as="image" href={capaMobile2} />
       </Helmet>
 
-      <div className="alerta-topo">
-        <span role="img" aria-label="Relógio">⏰</span> Oferta por tempo limitado: <strong>Garanta seu acesso com desconto!</strong>
+      <div className="alerta-topo junina">
+        <span role="img" aria-label="Festa">🎉</span> Arraiá de Descontos: <strong>Com até 60% OFF!</strong>
         <span className="contador">
-          <span role="img" aria-label="Calendário">📅</span> {timeLeft.days} dias, <span role="img" aria-label="Relógio de areia">⌛</span> {timeLeft.hours}:{timeLeft.minutes}:{timeLeft.seconds}
+          <span role="img" aria-label="Fogueira">🔥</span> Termina em: 📅 {timeLeft.days}dias,
+          <span role="img" aria-label="Relógio de areia">⌛</span>{timeLeft.hours}:{timeLeft.minutes}:{timeLeft.seconds}
         </span>
       </div>
-
       <section className="section1 section-header d-flex justify-content-center">
         <div className="container d-flex align-items-end">
           <div className="row">
@@ -38,7 +39,7 @@ export default function Header({ timeLeft }) {
                 Esse método foi feito pra você que quer emagrecer de forma definitiva.
               </p>
               <a href="#precos" className="botaoPrincipal botaoPrincipalHeader">
-                Quero o resultado que sempre sonhei!
+                Quero esse resultado agora!
               </a>
             </div>
           </div>

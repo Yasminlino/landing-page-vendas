@@ -37,7 +37,7 @@ export default function Footer() {
 
         {/* Linha final com direitos e ícones */}
         <div className="d-flex flex-column flex-md-row justify-content-between align-items-center mt-4 pt-4 border-top">
-          <p className="mb-2 mb-md-0">© 2021 Company, Inc. Todos os direitos reservados.</p>
+          <p className="mb-2 mb-md-0">© 2025 The Evolution Method. Todos os direitos reservados.</p>
           <ul className="list-unstyled d-flex mb-0">
             <li className="ms-3">
               <a

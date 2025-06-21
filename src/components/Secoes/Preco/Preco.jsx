@@ -6,8 +6,9 @@ export default function Preco({ timeLeft }) {
     const planos = [
         {
             nome: "Plano Básico",
+            id: "basic",
             precoOriginal: "R$ 97,90",
-            precoPromocional: "R$ 47,90",
+            precoPromocional: "R$ 57,90",
             descricao: "Acesso ao método completo por 1 mês.",
             itens: [
                 { icone: <FaCheck className="corLaranja" />, texto: "Curso em vídeos" },
@@ -20,12 +21,13 @@ export default function Preco({ timeLeft }) {
             ],
             corCabecalho: "bg-warning",
             corBotao: "btn-warning",
-            link: "https://sun.eduzz.com/Z0B5KZYJWA?cupom=METHODBASIC"
+            link: "https://sun.eduzz.com/Z0B5KZYJWA?cupom=ARRAIAEVOLUTIONBASIC"
         },
         {
             nome: "Plano Intermediário",
+            id: "intermediary",
             precoOriginal: "R$ 297,90",
-            precoPromocional: "R$ 97,90",
+            precoPromocional: "R$ 148,90",
             descricao: "Acesso ao método completo por 3 meses.",
             itens: [
                 { icone: <FaCheck className="corLaranja" />, texto: "Curso em vídeos" },
@@ -38,10 +40,11 @@ export default function Preco({ timeLeft }) {
             ],
             corCabecalho: "bg-primary",
             corBotao: "btn-dark",
-            link: "https://sun.eduzz.com/8WPAPQRQWP?cupom=METHODINTERMEDIARY"
+            link: "https://sun.eduzz.com/8WPAPQRQWP?cupom=ARRAIAEVOLUTIONINTERMEDIARY"
         },
         {
             nome: "Plano Premium",
+            id: "premium",
             precoOriginal: "R$ 497,90",
             precoPromocional: "R$ 197,90",
             descricao: "Acesso ao método completo por 3 meses.",
@@ -56,7 +59,7 @@ export default function Preco({ timeLeft }) {
             ],
             corCabecalho: "bg-success",
             corBotao: "btn-success",
-            link: "https://sun.eduzz.com/G961JNG5W1?cupom=METHODPREMIUM"
+            link: "https://sun.eduzz.com/G961JNG5W1?cupom=ARRAIAEVOLUTIONPREMIUM"
         }
     ];
 
@@ -103,7 +106,7 @@ export default function Preco({ timeLeft }) {
                                     </ul>
 
                                     <div className="mt-auto">
-                                        <a href={plano.link} className={`btn w-100 mt-3 ${plano.corBotao} fw-bold`}>
+                                        <a href={plano.link} id={`btn-${plano.id}`} className={`btn w-100 mt-3 ${plano.corBotao} fw-bold`}>
                                             Quero este plano
                                         </a>
                                     </div>

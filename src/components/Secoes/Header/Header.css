@@ -61,7 +61,16 @@ h1 {
 .logo-header > img {
   width: 8rem;
   height: 7rem;
+
 }
+
+/* Animação simples */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.02); }
+  100% { transform: scale(1); }
+}
+
 
 /* ======= MEDIA QUERIES ======= */
 
@@ -160,5 +169,11 @@ h1 {
 @media (max-height: 820px) {
   .section-header {
     height: 90vh;
+  }
+}
+
+@media ( max-width: 363px) {
+  .botaoPrincipalHeader {
+    font-size: 0.7rem !important;
   }
 }
